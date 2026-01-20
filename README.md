@@ -165,7 +165,7 @@ Escreva um **memo de 1 página** para a liderança de CS.
 2. Envie o **link do seu repositório** por email para pedro@aegro.com.br
 3. Certifique-se de que o repositório está **público** ou adicione o usuário `pmdusso` como colaborador
 
-**Prazo:** 5 dias corridos a partir do recebimento
+**Prazo:** Domingo, 26 de janeiro de 2025, às 23:59 (horário de Brasília)
 
 > 💡 **Dica:** Commits intermediários demonstram seu processo de pensamento e são bem vistos na avaliação!
 

@@ -17,3 +17,5 @@ venv/
 # Entregas dos candidatos (manter apenas .gitkeep)
 entregas/*
 !entregas/.gitkeep
+avaliacao/*
+!avaliacao/.gitkeep

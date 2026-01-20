@@ -1,0 +1,488 @@
+id,nome,segmento,plano,mrr,usuarios_contratados,modulos_contratados,data_inicio,csm_responsavel,estado
+1,Granja Boa Vista,Médio Produtor,Starter,1267.55,4,"Financeiro,Produção",2022-11-25,Diego Oliveira,SP
+2,Sítio Santa Fé,Pequeno Produtor,Starter,503.21,1,"Máquinas,Produção",2022-10-30,Carla Mendes,SP
+3,Fazenda Terra Rica,Médio Produtor,Starter,1518.44,5,"Estoque,Planejamento",2024-07-05,Ana Silva,TO
+4,Estância Recanto dos Santos,Pequeno Produtor,Starter,475.65,1,"Financeiro,Planejamento,Vendas",2022-06-21,Carla Mendes,SP
+5,Estância Progresso,Médio Produtor,Professional,2474.88,4,"Compras,Planejamento",2023-07-11,Carla Mendes,GO
+6,Estância Horizonte,Médio Produtor,Professional,1962.03,3,"Estoque,Produção,Vendas",2024-05-03,Bruno Costa,GO
+7,Sítio Recanto,Médio Produtor,Professional,2119.2,4,"Máquinas,Planejamento",2023-09-03,Bruno Costa,MS
+8,Haras Recanto,Pequeno Produtor,Professional,730.81,3,"Estoque,Máquinas,Planejamento,Produção,Vendas",2023-03-23,Carla Mendes,TO
+9,Haras Ouro Verde,Pequeno Produtor,Starter,798.52,3,"Financeiro,Máquinas,Produção",2024-05-14,Carla Mendes,BA
+10,Granja Água Clara,Pequeno Produtor,Enterprise,517.47,3,"Máquinas,Produção",2024-06-22,Diego Oliveira,MS
+11,Haras Alto Alegre,Pequeno Produtor,Professional,472.23,3,"Estoque,Financeiro,Máquinas,Vendas",2022-05-10,Carla Mendes,PR
+12,Estância Serra Verde Silva,Pequeno Produtor,Starter,772.1,3,"Planejamento,Vendas",2023-06-05,Ana Silva,TO
+13,Sítio Água Clara,Grande Produtor,Starter,5172.95,10,"Estoque,Produção",2023-06-19,Elena Santos,TO
+14,Haras Terra Rica,Pequeno Produtor,Starter,523.58,3,"Planejamento,Produção",2023-09-05,Elena Santos,SC
+15,Haras São José dos Santos,Médio Produtor,Starter,908.84,3,"Estoque,Vendas",2024-10-10,Ana Silva,MS
+16,Rancho Ouro Verde dos Santos,Pequeno Produtor,Starter,601.39,1,"Produção,Vendas",2023-03-07,Carla Mendes,BA
+17,Fazenda Sol Nascente Ferreira,Pequeno Produtor,Professional,718.3,1,"Compras,Financeiro",2022-10-03,Bruno Costa,RS
+18,Granja Santa Maria,Pequeno Produtor,Starter,477.58,1,"Financeiro,Máquinas,Vendas",2024-08-27,Carla Mendes,GO
+19,Estância Santa Fé Ferreira,Pequeno Produtor,Professional,328.25,2,"Compras,Estoque",2024-10-15,Elena Santos,RS
+20,Rancho Alto Alegre,Pequeno Produtor,Starter,781.23,3,"Planejamento,Produção",2024-08-20,Ana Silva,SC
+21,Rancho Esperança,Pequeno Produtor,Enterprise,248.07,1,"Financeiro,Vendas",2022-11-26,Elena Santos,TO
+22,Haras Horizonte Oliveira,Pequeno Produtor,Professional,571.63,2,"Estoque,Máquinas,Planejamento,Produção",2024-01-20,Bruno Costa,MG
+23,Estância Boa Vista,Pequeno Produtor,Professional,537.8,1,"Estoque,Vendas",2023-05-18,Bruno Costa,MS
+24,Fazenda União dos Santos,Pequeno Produtor,Professional,525.93,2,"Produção,Vendas",2023-12-16,Elena Santos,SC
+25,Rancho Água Clara,Pequeno Produtor,Starter,326.38,2,"Máquinas,Produção",2022-05-28,Bruno Costa,SP
+26,Haras Ouro Verde,Pequeno Produtor,Professional,366.01,1,"Estoque,Máquinas,Planejamento,Produção",2022-09-19,Bruno Costa,MG
+27,Rancho União Oliveira,Pequeno Produtor,Enterprise,742.36,3,"Máquinas,Planejamento",2023-03-01,Carla Mendes,SP
+28,Sítio Sol Nascente,Grande Produtor,Starter,3872.41,11,"Compras,Máquinas,Vendas",2022-01-24,Carla Mendes,PR
+29,Haras Esperança,Grande Produtor,Starter,6551.1,18,"Estoque,Máquinas,Produção",2024-01-18,Ana Silva,SP
+30,Rancho Campo Belo dos Santos,Grande Produtor,Starter,6991.23,22,"Estoque,Planejamento,Produção",2024-09-23,Carla Mendes,MT
+31,Estância São José Souza,Pequeno Produtor,Professional,607.71,3,"Estoque,Financeiro,Máquinas,Planejamento",2023-03-03,Elena Santos,MS
+32,Haras Ouro Verde Ferreira,Médio Produtor,Starter,1830.56,7,"Compras,Vendas",2024-04-06,Bruno Costa,GO
+33,Rancho Campo Belo,Pequeno Produtor,Starter,598.54,2,"Financeiro,Planejamento,Produção",2023-05-17,Bruno Costa,MT
+34,Fazenda Serra Verde Souza,Médio Produtor,Starter,1930.38,6,"Máquinas,Vendas",2023-12-14,Bruno Costa,TO
+35,Haras Progresso,Médio Produtor,Starter,1551.04,8,"Compras,Vendas",2022-07-28,Elena Santos,MT
+36,Rancho Paraíso,Médio Produtor,Professional,1369.82,4,"Estoque,Financeiro,Máquinas,Produção",2024-08-31,Ana Silva,MG
+37,Sítio Alto Alegre,Médio Produtor,Enterprise,1778.64,8,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2022-08-12,Bruno Costa,SC
+38,Rancho Progresso,Pequeno Produtor,Professional,473.88,2,"Compras,Máquinas,Produção,Vendas",2022-06-20,Elena Santos,RS
+39,Estância Campo Belo,Médio Produtor,Professional,2227.77,5,"Compras,Estoque,Financeiro,Planejamento,Produção",2022-10-18,Bruno Costa,SC
+40,Rancho Ouro Verde Souza,Pequeno Produtor,Starter,429.82,1,"Compras,Financeiro",2023-08-27,Bruno Costa,BA
+41,Granja Paraíso,Grande Produtor,Professional,6325.38,20,"Compras,Estoque,Financeiro,Planejamento,Produção",2023-04-15,Diego Oliveira,RS
+42,Rancho Recanto,Pequeno Produtor,Professional,217.41,2,"Compras,Estoque,Máquinas,Planejamento,Produção",2023-04-20,Ana Silva,SP
+43,Estância Campo Belo,Pequeno Produtor,Professional,720.11,1,"Compras,Planejamento",2023-11-17,Ana Silva,BA
+44,Haras São José,Pequeno Produtor,Enterprise,452.94,1,"Estoque,Financeiro,Máquinas,Produção,Vendas",2024-03-02,Carla Mendes,GO
+45,Haras Água Clara,Pequeno Produtor,Starter,291.43,1,"Financeiro,Produção,Vendas",2022-02-20,Ana Silva,PR
+46,Rancho Bom Futuro,Médio Produtor,Enterprise,2021.21,4,"Financeiro,Máquinas,Planejamento,Vendas",2023-03-08,Diego Oliveira,GO
+47,Fazenda Terra Rica,Pequeno Produtor,Professional,576.35,1,"Financeiro,Máquinas,Produção,Vendas",2022-07-25,Elena Santos,MS
+48,Haras Alto Alegre,Pequeno Produtor,Professional,207.59,2,"Compras,Financeiro,Planejamento,Produção,Vendas",2024-05-14,Bruno Costa,MT
+49,Fazenda Água Clara,Médio Produtor,Enterprise,2116.89,6,"Estoque,Máquinas,Planejamento,Produção,Vendas",2022-05-29,Ana Silva,GO
+50,Estância Água Clara,Médio Produtor,Professional,1935.92,5,"Compras,Planejamento",2024-04-14,Carla Mendes,TO
+51,Sítio Primavera,Médio Produtor,Starter,817.26,4,"Estoque,Produção",2023-08-28,Carla Mendes,RS
+52,Granja Alto Alegre,Pequeno Produtor,Starter,376.54,2,"Planejamento,Produção",2023-03-02,Bruno Costa,SC
+53,Granja Progresso Souza,Pequeno Produtor,Professional,362.55,2,"Estoque,Financeiro,Produção",2023-11-29,Ana Silva,MT
+54,Sítio Serra Verde Ferreira,Médio Produtor,Enterprise,1691.88,5,"Estoque,Máquinas",2023-12-19,Ana Silva,PR
+55,Estância Primavera,Pequeno Produtor,Enterprise,532.02,3,"Compras,Financeiro,Produção",2022-05-08,Ana Silva,MS
+56,Granja Horizonte,Pequeno Produtor,Starter,764.64,2,"Financeiro,Máquinas",2023-09-03,Carla Mendes,PR
+57,Granja Sol Nascente,Pequeno Produtor,Professional,382.3,1,"Compras,Vendas",2023-02-05,Carla Mendes,BA
+58,Haras Nova Era dos Santos,Médio Produtor,Professional,2262.28,6,"Financeiro,Máquinas,Produção,Vendas",2022-02-20,Diego Oliveira,PR
+59,Estância Santa Fé Silva,Pequeno Produtor,Professional,293.92,2,"Compras,Financeiro,Planejamento,Produção,Vendas",2024-02-23,Bruno Costa,MT
+60,Fazenda Progresso,Médio Produtor,Professional,1924.01,4,"Compras,Estoque,Financeiro,Produção,Vendas",2022-06-24,Ana Silva,TO
+61,Fazenda Paraíso Souza,Médio Produtor,Professional,1290.64,3,"Compras,Máquinas,Planejamento,Produção,Vendas",2023-04-14,Carla Mendes,MS
+62,Fazenda Progresso,Médio Produtor,Starter,1189.17,8,"Máquinas,Produção",2022-06-29,Bruno Costa,RS
+63,Haras Esperança,Grande Produtor,Starter,5719.31,23,"Compras,Planejamento",2023-08-26,Bruno Costa,MS
+64,Fazenda Bom Futuro,Pequeno Produtor,Professional,597.55,2,"Compras,Financeiro",2023-11-30,Bruno Costa,SP
+65,Sítio Serra Verde,Médio Produtor,Professional,1502.52,4,"Compras,Financeiro,Produção,Vendas",2024-03-23,Bruno Costa,RS
+66,Fazenda Santa Fé,Pequeno Produtor,Enterprise,565.32,1,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-03-01,Elena Santos,PR
+67,Sítio Paraíso,Médio Produtor,Professional,1665.08,5,"Compras,Estoque,Máquinas,Produção,Vendas",2023-04-02,Ana Silva,PR
+68,Haras Serra Verde,Grande Produtor,Starter,6845.03,21,"Máquinas,Planejamento,Vendas",2022-06-30,Ana Silva,TO
+69,Sítio Sol Nascente,Cooperativa,Professional,10526.12,93,"Compras,Estoque,Máquinas,Planejamento,Vendas",2022-03-07,Bruno Costa,GO
+70,Granja Campo Belo,Grande Produtor,Professional,4249.97,23,"Compras,Estoque,Financeiro,Máquinas,Produção",2024-06-10,Carla Mendes,RS
+71,Estância Paraíso,Pequeno Produtor,Enterprise,209.21,1,"Estoque,Financeiro,Máquinas,Produção,Vendas",2022-08-09,Elena Santos,MG
+72,Haras Serra Verde,Grande Produtor,Enterprise,7226.38,20,"Compras,Financeiro,Máquinas,Produção",2023-01-24,Ana Silva,MG
+73,Estância São José Oliveira,Pequeno Produtor,Starter,580.25,1,"Estoque,Planejamento,Produção",2022-04-06,Ana Silva,BA
+74,Haras Sol Nascente,Pequeno Produtor,Professional,539.56,1,"Estoque,Financeiro,Vendas",2022-05-10,Bruno Costa,TO
+75,Granja Progresso Oliveira,Pequeno Produtor,Professional,352.39,2,"Compras,Máquinas",2022-04-09,Bruno Costa,TO
+76,Estância Recanto Oliveira,Pequeno Produtor,Enterprise,614.19,2,"Compras,Estoque,Financeiro,Produção",2024-02-18,Bruno Costa,SP
+77,Estância Sol Nascente,Cooperativa,Professional,12666.17,97,"Produção,Vendas",2023-05-28,Diego Oliveira,MS
+78,Fazenda Serra Verde,Pequeno Produtor,Starter,350.38,3,"Financeiro,Produção",2022-04-06,Carla Mendes,SP
+79,Estância Alto Alegre,Médio Produtor,Professional,953.23,5,"Compras,Estoque,Produção,Vendas",2024-06-04,Diego Oliveira,MT
+80,Sítio Sol Nascente,Grande Produtor,Starter,7035.79,23,"Financeiro,Planejamento,Produção",2023-06-26,Elena Santos,BA
+81,Haras Água Clara,Cooperativa,Professional,14218.18,75,"Planejamento,Vendas",2024-06-13,Bruno Costa,MS
+82,Haras Serra Verde,Pequeno Produtor,Starter,215.01,3,"Estoque,Financeiro,Vendas",2023-01-06,Diego Oliveira,MG
+83,Rancho Santa Fé,Pequeno Produtor,Enterprise,382.62,2,"Estoque,Financeiro",2022-04-23,Carla Mendes,SC
+84,Estância São José,Pequeno Produtor,Professional,292.71,2,"Compras,Máquinas",2023-01-26,Bruno Costa,GO
+85,Rancho Boa Vista,Pequeno Produtor,Enterprise,713.27,1,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2022-01-30,Ana Silva,TO
+86,Sítio Campo Belo,Cooperativa,Starter,13669.66,41,"Financeiro,Vendas",2024-03-19,Carla Mendes,TO
+87,Sítio Recanto,Pequeno Produtor,Enterprise,286.81,1,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Vendas",2023-10-17,Diego Oliveira,PR
+88,Granja Esperança,Pequeno Produtor,Starter,452.58,1,"Compras,Máquinas",2022-08-13,Bruno Costa,GO
+89,Rancho Ouro Verde,Grande Produtor,Starter,6807.75,24,"Compras,Financeiro,Produção",2024-08-16,Elena Santos,RS
+90,Granja Campo Belo,Médio Produtor,Professional,2328.75,5,"Estoque,Financeiro,Planejamento",2023-01-17,Carla Mendes,TO
+91,Granja Nova Era,Médio Produtor,Professional,1829.23,3,"Máquinas,Produção",2022-12-21,Elena Santos,GO
+92,Estância União,Pequeno Produtor,Professional,439.24,3,"Compras,Planejamento",2023-12-02,Carla Mendes,RS
+93,Granja Campo Belo,Pequeno Produtor,Professional,255.94,1,"Estoque,Financeiro,Máquinas,Vendas",2023-02-25,Elena Santos,BA
+94,Granja Alto Alegre Souza,Pequeno Produtor,Professional,650.17,3,"Planejamento,Vendas",2023-12-03,Bruno Costa,GO
+95,Granja Paraíso,Grande Produtor,Starter,5559.46,11,"Compras,Estoque,Vendas",2022-06-05,Carla Mendes,SC
+96,Estância Terra Rica Silva,Pequeno Produtor,Enterprise,697.68,2,"Estoque,Planejamento",2022-10-29,Diego Oliveira,TO
+97,Rancho Campo Belo Oliveira,Médio Produtor,Starter,2059.65,3,"Produção,Vendas",2024-03-11,Bruno Costa,MS
+98,Rancho Ouro Verde,Médio Produtor,Professional,944.43,3,"Estoque,Financeiro,Vendas",2022-11-27,Ana Silva,RS
+99,Estância São José Ferreira,Pequeno Produtor,Starter,507.41,2,"Financeiro,Planejamento,Vendas",2023-06-07,Carla Mendes,SP
+100,Rancho Progresso Ferreira,Pequeno Produtor,Starter,326.74,1,"Financeiro,Máquinas,Planejamento",2024-10-10,Carla Mendes,GO
+101,Estância Recanto,Médio Produtor,Professional,2170.54,3,"Compras,Financeiro,Máquinas,Produção,Vendas",2023-07-05,Elena Santos,BA
+102,Fazenda Sol Nascente,Médio Produtor,Professional,995.79,3,"Compras,Estoque,Planejamento,Vendas",2024-07-19,Bruno Costa,BA
+103,Fazenda Alto Alegre,Médio Produtor,Starter,1327.47,5,"Estoque,Planejamento",2024-07-31,Carla Mendes,MS
+104,Sítio Horizonte Souza,Pequeno Produtor,Enterprise,587.27,1,"Estoque,Financeiro,Planejamento",2024-03-29,Ana Silva,RS
+105,Rancho Horizonte,Médio Produtor,Professional,1563.14,7,"Estoque,Máquinas,Planejamento,Produção",2023-07-25,Ana Silva,MT
+106,Haras Boa Vista,Médio Produtor,Starter,926.12,6,"Financeiro,Máquinas,Planejamento",2022-06-19,Bruno Costa,SC
+107,Granja Primavera,Pequeno Produtor,Professional,772.54,3,"Compras,Vendas",2022-12-20,Ana Silva,SP
+108,Haras Santa Fé,Médio Produtor,Professional,2223.54,8,"Produção,Vendas",2024-04-24,Ana Silva,SC
+109,Haras Campo Belo dos Santos,Médio Produtor,Starter,1433.85,5,"Compras,Planejamento,Vendas",2024-08-25,Diego Oliveira,SC
+110,Estância Serra Verde,Médio Produtor,Starter,2030.35,8,"Financeiro,Planejamento",2023-03-01,Carla Mendes,BA
+111,Estância Santa Maria,Pequeno Produtor,Professional,250.83,3,"Estoque,Financeiro,Máquinas,Planejamento,Produção",2022-12-01,Bruno Costa,PR
+112,Fazenda Alto Alegre,Cooperativa,Starter,21024.66,49,"Estoque,Máquinas",2024-07-30,Bruno Costa,SC
+113,Granja Progresso,Pequeno Produtor,Starter,659.78,1,"Estoque,Máquinas,Produção",2022-06-19,Diego Oliveira,SP
+114,Rancho Nova Era,Pequeno Produtor,Professional,342.52,2,"Compras,Estoque,Máquinas,Produção",2023-04-20,Ana Silva,TO
+115,Estância Bela Vista,Cooperativa,Professional,12790.12,73,"Compras,Estoque,Máquinas,Produção,Vendas",2024-08-25,Carla Mendes,SC
+116,Sítio Santa Fé,Grande Produtor,Starter,6697.14,16,"Compras,Estoque,Vendas",2024-07-16,Elena Santos,SP
+117,Fazenda Horizonte,Pequeno Produtor,Starter,424.38,2,"Estoque,Planejamento",2024-09-19,Bruno Costa,PR
+118,Fazenda Boa Vista Silva,Pequeno Produtor,Starter,697.86,3,"Máquinas,Produção",2023-06-25,Bruno Costa,PR
+119,Granja Santa Fé Souza,Médio Produtor,Professional,1697.21,3,"Estoque,Financeiro,Planejamento,Vendas",2024-02-16,Bruno Costa,TO
+120,Granja Ouro Verde dos Santos,Médio Produtor,Professional,1777.58,8,"Compras,Financeiro,Planejamento",2023-01-27,Bruno Costa,SC
+121,Estância Água Clara,Cooperativa,Starter,16943.01,89,"Compras,Máquinas",2024-09-03,Carla Mendes,MS
+122,Sítio São José,Médio Produtor,Starter,2046.0,8,"Máquinas,Vendas",2022-09-26,Diego Oliveira,MS
+123,Rancho São José dos Santos,Grande Produtor,Starter,6785.28,22,"Estoque,Máquinas,Produção",2024-08-14,Diego Oliveira,GO
+124,Fazenda Horizonte,Grande Produtor,Starter,4205.42,20,"Estoque,Financeiro,Planejamento",2023-12-30,Bruno Costa,MG
+125,Estância Boa Vista,Médio Produtor,Professional,1480.04,6,"Compras,Estoque,Planejamento,Produção,Vendas",2022-03-16,Diego Oliveira,MG
+126,Haras Ouro Verde Souza,Pequeno Produtor,Enterprise,308.27,2,"Financeiro,Máquinas,Planejamento,Vendas",2023-12-09,Bruno Costa,MS
+127,Granja Progresso,Pequeno Produtor,Professional,746.96,3,"Financeiro,Máquinas,Planejamento,Produção,Vendas",2023-01-04,Bruno Costa,PR
+128,Granja São José,Grande Produtor,Professional,4909.95,12,"Estoque,Produção",2023-10-08,Bruno Costa,RS
+129,Fazenda Progresso,Grande Produtor,Starter,6696.96,12,"Compras,Planejamento,Produção",2024-02-05,Elena Santos,BA
+130,Rancho Nova Era dos Santos,Grande Produtor,Starter,6762.3,22,"Planejamento,Vendas",2022-11-07,Elena Santos,RS
+131,Sítio Horizonte Oliveira,Pequeno Produtor,Professional,798.36,3,"Financeiro,Máquinas,Planejamento,Produção",2022-04-19,Bruno Costa,SC
+132,Sítio Paraíso,Pequeno Produtor,Enterprise,675.24,1,"Estoque,Financeiro,Planejamento,Produção,Vendas",2022-07-18,Elena Santos,MG
+133,Fazenda Santa Fé,Pequeno Produtor,Enterprise,631.32,3,"Compras,Financeiro,Máquinas,Produção,Vendas",2022-01-26,Bruno Costa,SC
+134,Estância Sol Nascente,Pequeno Produtor,Enterprise,668.16,3,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Vendas",2023-12-11,Ana Silva,SC
+135,Granja Recanto Ferreira,Grande Produtor,Professional,3878.33,25,"Estoque,Financeiro,Planejamento,Produção",2023-05-22,Carla Mendes,TO
+136,Haras Nova Era,Pequeno Produtor,Enterprise,224.72,1,"Financeiro,Produção",2022-08-20,Carla Mendes,BA
+137,Haras Bom Futuro dos Santos,Médio Produtor,Starter,2311.29,7,"Compras,Planejamento,Produção",2024-02-10,Diego Oliveira,SP
+138,Estância Bom Futuro Oliveira,Pequeno Produtor,Professional,478.67,2,"Máquinas,Planejamento,Produção",2022-09-27,Elena Santos,SC
+139,Rancho Paraíso,Médio Produtor,Starter,1593.0,5,"Estoque,Financeiro,Máquinas",2024-08-27,Bruno Costa,PR
+140,Rancho Santa Maria Souza,Grande Produtor,Enterprise,6466.21,14,"Compras,Máquinas,Vendas",2023-05-26,Elena Santos,SC
+141,Haras Primavera dos Santos,Médio Produtor,Starter,1791.68,3,"Compras,Planejamento",2023-02-14,Elena Santos,MG
+142,Fazenda Bom Futuro,Pequeno Produtor,Enterprise,636.5,2,"Compras,Estoque,Financeiro,Máquinas",2023-10-12,Carla Mendes,SC
+143,Granja Terra Rica,Pequeno Produtor,Enterprise,608.24,1,"Compras,Financeiro,Planejamento",2022-07-27,Elena Santos,GO
+144,Granja Alto Alegre Ferreira,Médio Produtor,Professional,868.43,3,"Compras,Planejamento,Produção",2023-05-05,Bruno Costa,MS
+145,Estância Campo Belo,Pequeno Produtor,Enterprise,643.59,2,"Compras,Estoque,Máquinas,Planejamento,Produção,Vendas",2023-06-19,Diego Oliveira,BA
+146,Granja Recanto dos Santos,Médio Produtor,Professional,2033.05,8,"Compras,Vendas",2024-01-20,Elena Santos,TO
+147,Haras Esperança Souza,Médio Produtor,Professional,2026.01,6,"Estoque,Máquinas,Produção",2024-09-15,Carla Mendes,MS
+148,Haras Primavera,Pequeno Produtor,Professional,322.34,3,"Estoque,Financeiro,Máquinas,Planejamento,Produção",2024-03-19,Carla Mendes,MS
+149,Estância Bela Vista Oliveira,Cooperativa,Professional,17063.16,94,"Compras,Máquinas,Planejamento,Produção",2024-04-04,Elena Santos,MT
+150,Granja Bom Futuro,Médio Produtor,Professional,1631.31,6,"Máquinas,Planejamento,Produção,Vendas",2024-06-15,Carla Mendes,BA
+151,Rancho Horizonte Souza,Grande Produtor,Enterprise,6925.39,17,"Planejamento,Produção",2024-07-29,Bruno Costa,GO
+152,Granja Sol Nascente,Pequeno Produtor,Professional,759.81,3,"Estoque,Financeiro,Máquinas,Vendas",2024-02-12,Ana Silva,SP
+153,Rancho Horizonte,Pequeno Produtor,Starter,483.44,3,"Financeiro,Vendas",2022-01-20,Elena Santos,RS
+154,Granja São José,Médio Produtor,Starter,2438.65,5,"Financeiro,Máquinas,Produção",2022-12-20,Carla Mendes,PR
+155,Granja Esperança,Pequeno Produtor,Professional,760.35,1,"Compras,Estoque,Financeiro,Máquinas,Planejamento",2024-10-08,Bruno Costa,MS
+156,Fazenda Campo Belo Souza,Pequeno Produtor,Enterprise,525.98,2,"Compras,Máquinas,Vendas",2024-01-12,Ana Silva,MT
+157,Rancho Ouro Verde,Médio Produtor,Starter,1373.09,5,"Estoque,Vendas",2022-05-25,Carla Mendes,MG
+158,Estância Campo Belo,Pequeno Produtor,Starter,789.01,2,"Estoque,Financeiro,Planejamento",2023-09-21,Ana Silva,TO
+159,Granja Serra Verde,Pequeno Produtor,Professional,615.66,1,"Compras,Planejamento",2024-05-07,Bruno Costa,MT
+160,Haras Bela Vista,Pequeno Produtor,Starter,774.42,2,"Compras,Produção",2023-02-05,Bruno Costa,SC
+161,Granja Alto Alegre Ferreira,Grande Produtor,Professional,6690.23,10,"Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-06-25,Ana Silva,PR
+162,Rancho São José,Pequeno Produtor,Enterprise,465.1,3,"Compras,Produção,Vendas",2024-07-16,Elena Santos,SC
+163,Sítio Recanto Souza,Pequeno Produtor,Professional,535.28,3,"Compras,Financeiro,Planejamento,Produção",2022-07-04,Ana Silva,MS
+164,Haras Horizonte,Médio Produtor,Professional,902.43,3,"Compras,Estoque,Financeiro,Máquinas,Planejamento",2022-08-25,Carla Mendes,MS
+165,Estância Esperança Ferreira,Cooperativa,Starter,22783.54,73,"Financeiro,Produção,Vendas",2024-06-03,Carla Mendes,BA
+166,Rancho Bela Vista,Médio Produtor,Professional,1178.57,3,"Compras,Planejamento",2022-11-28,Diego Oliveira,GO
+167,Fazenda Sol Nascente dos Santos,Pequeno Produtor,Starter,365.39,3,"Financeiro,Produção",2023-08-15,Carla Mendes,TO
+168,Sítio São José Oliveira,Pequeno Produtor,Professional,621.97,1,"Compras,Financeiro,Produção",2023-07-26,Ana Silva,GO
+169,Estância São José,Grande Produtor,Professional,4253.97,18,"Estoque,Planejamento,Vendas",2024-03-05,Bruno Costa,TO
+170,Sítio Serra Verde,Grande Produtor,Enterprise,5942.96,21,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Vendas",2022-11-04,Bruno Costa,SC
+171,Rancho Bela Vista,Médio Produtor,Professional,1311.25,8,"Compras,Financeiro,Máquinas",2023-03-22,Bruno Costa,BA
+172,Haras Paraíso,Pequeno Produtor,Starter,588.02,2,"Estoque,Financeiro,Vendas",2024-08-26,Bruno Costa,MG
+173,Fazenda Nova Era,Pequeno Produtor,Professional,634.58,3,"Compras,Estoque,Planejamento",2023-12-12,Elena Santos,MG
+174,Rancho Santa Fé,Médio Produtor,Professional,2354.55,8,"Compras,Estoque,Vendas",2023-11-23,Diego Oliveira,MS
+175,Estância Nova Era,Pequeno Produtor,Starter,729.69,2,"Máquinas,Produção",2023-06-25,Diego Oliveira,BA
+176,Estância Sol Nascente,Pequeno Produtor,Enterprise,644.75,1,"Compras,Máquinas,Produção,Vendas",2023-12-20,Ana Silva,GO
+177,Sítio União,Médio Produtor,Professional,1964.24,5,"Compras,Financeiro,Máquinas,Produção,Vendas",2022-09-28,Diego Oliveira,RS
+178,Fazenda União Ferreira,Pequeno Produtor,Enterprise,794.19,1,"Compras,Estoque,Financeiro,Máquinas,Produção,Vendas",2022-06-08,Carla Mendes,RS
+179,Fazenda Alto Alegre,Pequeno Produtor,Professional,600.05,3,"Compras,Financeiro,Planejamento,Produção,Vendas",2023-04-02,Bruno Costa,SC
+180,Sítio Paraíso,Cooperativa,Starter,21823.67,80,"Financeiro,Máquinas",2023-04-30,Ana Silva,MS
+181,Fazenda Horizonte,Pequeno Produtor,Starter,423.83,2,"Estoque,Produção,Vendas",2023-12-15,Diego Oliveira,SP
+182,Rancho Horizonte,Pequeno Produtor,Starter,531.62,1,"Estoque,Produção",2024-07-25,Carla Mendes,TO
+183,Fazenda Água Clara,Cooperativa,Enterprise,23211.45,30,"Estoque,Produção,Vendas",2023-06-19,Bruno Costa,TO
+184,Rancho Boa Vista Ferreira,Médio Produtor,Starter,2245.73,3,"Estoque,Vendas",2022-09-08,Diego Oliveira,GO
+185,Estância São José Silva,Médio Produtor,Professional,1950.96,7,"Compras,Estoque,Financeiro,Produção",2023-05-24,Diego Oliveira,MG
+186,Granja Bom Futuro,Pequeno Produtor,Professional,772.92,2,"Compras,Financeiro,Planejamento,Produção",2023-06-03,Ana Silva,TO
+187,Haras União,Médio Produtor,Starter,1851.65,4,"Financeiro,Planejamento",2024-05-13,Bruno Costa,MS
+188,Rancho Santa Fé,Pequeno Produtor,Starter,765.78,2,"Financeiro,Máquinas,Planejamento",2024-06-04,Ana Silva,SC
+189,Fazenda Bela Vista,Pequeno Produtor,Starter,412.35,1,"Compras,Financeiro,Máquinas",2023-12-24,Bruno Costa,GO
+190,Rancho Água Clara,Médio Produtor,Starter,1447.24,4,"Compras,Máquinas,Planejamento",2024-05-21,Ana Silva,RS
+191,Estância Santa Maria,Médio Produtor,Starter,2405.18,8,"Estoque,Máquinas,Vendas",2023-07-07,Ana Silva,MS
+192,Granja Nova Era,Grande Produtor,Starter,7242.09,22,"Compras,Produção,Vendas",2024-05-31,Bruno Costa,PR
+193,Granja Nova Era,Cooperativa,Enterprise,12954.62,87,"Compras,Estoque,Máquinas,Planejamento,Produção,Vendas",2023-10-10,Ana Silva,SC
+194,Rancho Primavera Oliveira,Pequeno Produtor,Professional,216.15,3,"Compras,Estoque,Planejamento,Produção,Vendas",2024-08-08,Diego Oliveira,GO
+195,Granja Alto Alegre,Pequeno Produtor,Starter,453.88,2,"Compras,Vendas",2023-06-15,Carla Mendes,BA
+196,Sítio Horizonte,Médio Produtor,Professional,1411.2,7,"Estoque,Financeiro",2022-12-14,Carla Mendes,TO
+197,Granja Recanto,Cooperativa,Professional,14793.5,67,"Financeiro,Máquinas,Planejamento,Produção,Vendas",2023-05-14,Diego Oliveira,GO
+198,Rancho Boa Vista Silva,Pequeno Produtor,Starter,663.41,3,"Financeiro,Planejamento",2023-06-11,Ana Silva,MS
+199,Fazenda Esperança Oliveira,Pequeno Produtor,Professional,324.12,2,"Compras,Financeiro,Máquinas,Vendas",2023-11-26,Ana Silva,MG
+200,Rancho Sol Nascente,Médio Produtor,Starter,2472.63,4,"Estoque,Vendas",2023-11-14,Carla Mendes,PR
+201,Sítio Nova Era dos Santos,Pequeno Produtor,Professional,437.35,3,"Compras,Máquinas,Vendas",2023-09-15,Ana Silva,TO
+202,Granja Horizonte,Pequeno Produtor,Enterprise,312.18,2,"Compras,Financeiro,Planejamento",2022-12-01,Elena Santos,BA
+203,Fazenda União,Médio Produtor,Professional,1391.47,6,"Máquinas,Planejamento,Produção",2022-03-22,Carla Mendes,GO
+204,Sítio Primavera,Pequeno Produtor,Starter,616.06,3,"Compras,Estoque,Vendas",2023-03-09,Bruno Costa,PR
+205,Rancho Bela Vista,Médio Produtor,Professional,1038.5,5,"Estoque,Financeiro,Planejamento,Produção,Vendas",2024-05-31,Ana Silva,RS
+206,Sítio Bela Vista Souza,Pequeno Produtor,Professional,626.09,2,"Compras,Estoque,Financeiro,Produção,Vendas",2023-12-23,Ana Silva,TO
+207,Granja São José,Médio Produtor,Professional,1734.53,3,"Planejamento,Vendas",2022-06-27,Elena Santos,RS
+208,Fazenda Santa Fé,Médio Produtor,Enterprise,974.11,8,"Compras,Financeiro,Planejamento",2024-01-22,Bruno Costa,MG
+209,Granja União,Médio Produtor,Starter,2178.19,7,"Máquinas,Produção,Vendas",2023-01-09,Bruno Costa,GO
+210,Granja Esperança Souza,Grande Produtor,Professional,5427.54,25,"Máquinas,Planejamento,Produção",2023-12-26,Carla Mendes,SP
+211,Haras Bom Futuro,Cooperativa,Enterprise,10157.1,41,"Estoque,Planejamento,Produção",2022-06-22,Ana Silva,TO
+212,Estância Santa Fé,Médio Produtor,Professional,1437.79,3,"Compras,Vendas",2022-09-11,Bruno Costa,MS
+213,Sítio Primavera Oliveira,Médio Produtor,Enterprise,2240.18,3,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2022-01-30,Bruno Costa,MS
+214,Rancho Santa Maria Silva,Médio Produtor,Starter,2249.12,5,"Financeiro,Máquinas",2023-01-15,Diego Oliveira,RS
+215,Estância Boa Vista,Médio Produtor,Enterprise,1527.26,8,"Estoque,Planejamento,Produção",2022-05-06,Elena Santos,MT
+216,Fazenda Nova Era,Pequeno Produtor,Professional,589.35,1,"Compras,Estoque,Máquinas,Planejamento,Produção",2024-07-16,Diego Oliveira,PR
+217,Rancho Boa Vista,Médio Produtor,Professional,1556.61,3,"Compras,Estoque,Financeiro,Máquinas",2023-06-16,Ana Silva,MG
+218,Granja Santa Maria,Pequeno Produtor,Starter,379.55,2,"Máquinas,Produção",2024-05-24,Ana Silva,PR
+219,Fazenda Recanto,Pequeno Produtor,Professional,576.85,1,"Compras,Estoque,Financeiro,Produção,Vendas",2022-04-13,Ana Silva,MS
+220,Granja Serra Verde,Cooperativa,Starter,10377.11,60,"Estoque,Vendas",2023-02-10,Carla Mendes,SP
+221,Sítio Primavera,Grande Produtor,Professional,4159.07,24,"Compras,Planejamento,Produção",2022-12-26,Ana Silva,GO
+222,Sítio Primavera,Médio Produtor,Professional,1698.09,3,"Compras,Estoque,Planejamento,Vendas",2023-10-09,Carla Mendes,MG
+223,Haras Alto Alegre,Pequeno Produtor,Starter,357.31,1,"Compras,Máquinas",2023-05-18,Bruno Costa,BA
+224,Sítio União,Médio Produtor,Starter,1712.16,7,"Financeiro,Planejamento",2023-12-05,Ana Silva,BA
+225,Sítio São José Souza,Médio Produtor,Professional,1904.73,8,"Planejamento,Produção",2023-07-28,Diego Oliveira,MG
+226,Rancho Terra Rica,Médio Produtor,Professional,1325.79,8,"Estoque,Financeiro,Máquinas",2022-10-30,Ana Silva,MT
+227,Estância Alto Alegre Ferreira,Pequeno Produtor,Starter,668.67,2,"Financeiro,Máquinas",2023-11-09,Diego Oliveira,MG
+228,Granja Esperança Ferreira,Médio Produtor,Professional,894.25,7,"Estoque,Máquinas,Planejamento",2022-08-18,Ana Silva,SP
+229,Haras Horizonte,Pequeno Produtor,Enterprise,346.73,2,"Compras,Estoque,Financeiro,Produção",2023-03-31,Diego Oliveira,MS
+230,Fazenda Bom Futuro Souza,Pequeno Produtor,Enterprise,391.96,1,"Compras,Financeiro,Máquinas,Planejamento,Produção,Vendas",2022-07-17,Carla Mendes,MT
+231,Estância Paraíso Oliveira,Médio Produtor,Starter,946.86,6,"Estoque,Planejamento",2023-12-24,Carla Mendes,TO
+232,Estância Horizonte,Cooperativa,Enterprise,21190.06,94,"Compras,Estoque,Financeiro",2024-09-23,Ana Silva,SP
+233,Rancho São José,Cooperativa,Starter,19174.17,64,"Estoque,Vendas",2022-01-15,Ana Silva,PR
+234,Granja Esperança,Médio Produtor,Starter,2366.17,7,"Compras,Planejamento,Produção",2022-01-24,Diego Oliveira,BA
+235,Haras Campo Belo,Pequeno Produtor,Professional,460.99,1,"Máquinas,Planejamento,Produção",2022-03-14,Diego Oliveira,MT
+236,Estância Ouro Verde Oliveira,Pequeno Produtor,Enterprise,281.67,3,"Estoque,Financeiro",2024-05-02,Bruno Costa,GO
+237,Granja São José Oliveira,Médio Produtor,Professional,2249.22,3,"Máquinas,Planejamento,Produção",2022-06-24,Diego Oliveira,PR
+238,Sítio Santa Maria,Pequeno Produtor,Starter,413.45,3,"Planejamento,Produção",2024-01-25,Diego Oliveira,RS
+239,Sítio União Souza,Médio Produtor,Professional,961.03,3,"Financeiro,Máquinas,Produção",2022-06-20,Diego Oliveira,MS
+240,Rancho União Oliveira,Médio Produtor,Enterprise,942.87,7,"Financeiro,Máquinas,Produção,Vendas",2024-03-29,Elena Santos,MG
+241,Sítio Terra Rica Silva,Pequeno Produtor,Professional,300.79,3,"Compras,Financeiro,Máquinas,Produção,Vendas",2023-09-22,Diego Oliveira,MT
+242,Rancho União,Pequeno Produtor,Enterprise,220.79,3,"Compras,Estoque,Máquinas,Planejamento,Produção,Vendas",2024-08-16,Ana Silva,SC
+243,Granja Alto Alegre,Pequeno Produtor,Enterprise,526.19,1,"Compras,Máquinas,Planejamento,Produção,Vendas",2022-08-09,Carla Mendes,MT
+244,Granja Sol Nascente,Pequeno Produtor,Starter,331.41,2,"Compras,Máquinas",2023-04-24,Bruno Costa,MG
+245,Rancho Terra Rica,Pequeno Produtor,Starter,520.21,3,"Estoque,Máquinas",2023-03-08,Diego Oliveira,PR
+246,Rancho Bela Vista,Pequeno Produtor,Professional,683.73,3,"Estoque,Financeiro,Planejamento,Vendas",2023-03-21,Elena Santos,RS
+247,Estância Progresso,Pequeno Produtor,Starter,561.0,1,"Financeiro,Planejamento,Vendas",2024-03-25,Diego Oliveira,MS
+248,Fazenda Terra Rica,Pequeno Produtor,Starter,622.82,1,"Máquinas,Vendas",2022-05-20,Bruno Costa,BA
+249,Haras Bela Vista,Médio Produtor,Starter,1348.43,4,"Compras,Máquinas,Produção",2022-12-23,Bruno Costa,TO
+250,Fazenda Recanto,Médio Produtor,Starter,1801.22,4,"Máquinas,Planejamento,Produção",2024-06-09,Ana Silva,TO
+251,Estância Boa Vista Oliveira,Pequeno Produtor,Professional,752.62,3,"Financeiro,Produção,Vendas",2022-03-03,Carla Mendes,PR
+252,Estância Esperança,Médio Produtor,Enterprise,2196.83,8,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2022-11-08,Ana Silva,SP
+253,Granja Horizonte,Pequeno Produtor,Professional,781.46,2,"Compras,Financeiro,Máquinas,Planejamento,Vendas",2022-06-22,Carla Mendes,GO
+254,Estância Progresso,Pequeno Produtor,Starter,707.46,2,"Máquinas,Planejamento",2022-02-16,Ana Silva,PR
+255,Sítio Paraíso,Médio Produtor,Professional,2326.81,3,"Compras,Financeiro,Máquinas,Vendas",2023-08-03,Elena Santos,PR
+256,Rancho Recanto,Pequeno Produtor,Starter,784.64,2,"Máquinas,Planejamento,Produção",2024-02-17,Ana Silva,RS
+257,Estância Boa Vista,Pequeno Produtor,Starter,456.56,2,"Estoque,Financeiro,Produção",2024-03-20,Ana Silva,MG
+258,Rancho Terra Rica dos Santos,Pequeno Produtor,Starter,493.46,3,"Financeiro,Produção,Vendas",2023-09-17,Ana Silva,MT
+259,Haras Terra Rica,Pequeno Produtor,Starter,702.25,3,"Estoque,Produção",2022-12-04,Ana Silva,BA
+260,Haras São José,Cooperativa,Professional,17411.23,74,"Compras,Estoque,Máquinas,Produção,Vendas",2023-12-16,Ana Silva,SC
+261,Haras Ouro Verde Silva,Grande Produtor,Professional,5911.5,11,"Estoque,Financeiro,Máquinas,Produção,Vendas",2024-09-04,Bruno Costa,TO
+262,Estância Alto Alegre,Pequeno Produtor,Enterprise,748.5,1,"Compras,Vendas",2023-09-07,Carla Mendes,SP
+263,Granja Esperança,Médio Produtor,Professional,1688.36,6,"Compras,Estoque",2024-05-19,Carla Mendes,TO
+264,Sítio Paraíso,Médio Produtor,Professional,2274.71,5,"Compras,Financeiro,Planejamento,Produção,Vendas",2024-04-24,Bruno Costa,BA
+265,Estância Santa Maria,Pequeno Produtor,Enterprise,398.9,1,"Compras,Produção",2022-03-20,Bruno Costa,MT
+266,Haras Santa Fé,Pequeno Produtor,Professional,714.94,3,"Estoque,Máquinas",2024-06-02,Bruno Costa,MS
+267,Fazenda Serra Verde,Pequeno Produtor,Professional,587.33,1,"Compras,Estoque,Financeiro,Planejamento,Produção",2023-05-09,Diego Oliveira,BA
+268,Fazenda Terra Rica,Pequeno Produtor,Enterprise,727.6,1,"Estoque,Financeiro,Máquinas",2024-02-05,Ana Silva,MT
+269,Sítio Primavera,Pequeno Produtor,Professional,438.17,1,"Estoque,Planejamento",2023-06-05,Carla Mendes,MS
+270,Granja Nova Era,Pequeno Produtor,Professional,355.2,3,"Financeiro,Planejamento",2023-09-18,Ana Silva,GO
+271,Fazenda Sol Nascente Oliveira,Médio Produtor,Starter,1496.16,3,"Compras,Estoque",2022-12-25,Ana Silva,MT
+272,Granja Bom Futuro,Pequeno Produtor,Starter,409.23,2,"Compras,Planejamento",2022-11-24,Carla Mendes,SP
+273,Estância Horizonte,Médio Produtor,Professional,2233.58,5,"Compras,Financeiro,Planejamento,Produção",2024-08-13,Bruno Costa,MT
+274,Granja Bom Futuro,Pequeno Produtor,Professional,735.42,2,"Estoque,Máquinas,Vendas",2022-04-10,Ana Silva,PR
+275,Haras Bela Vista,Médio Produtor,Professional,2495.7,5,"Compras,Estoque,Financeiro,Máquinas,Produção",2022-10-05,Diego Oliveira,RS
+276,Haras Bela Vista,Grande Produtor,Professional,5290.23,13,"Compras,Financeiro,Planejamento",2024-06-08,Diego Oliveira,PR
+277,Estância Água Clara,Grande Produtor,Enterprise,6099.39,15,"Compras,Estoque,Planejamento,Produção",2022-08-02,Elena Santos,RS
+278,Sítio União,Grande Produtor,Professional,7265.16,10,"Compras,Estoque,Financeiro,Planejamento,Vendas",2023-12-17,Bruno Costa,MS
+279,Estância Horizonte,Pequeno Produtor,Professional,743.97,2,"Estoque,Planejamento,Produção",2022-08-12,Ana Silva,MS
+280,Haras Ouro Verde,Médio Produtor,Starter,1265.0,4,"Compras,Financeiro",2024-06-07,Carla Mendes,RS
+281,Fazenda Horizonte,Pequeno Produtor,Starter,319.65,2,"Planejamento,Vendas",2024-04-05,Ana Silva,GO
+282,Rancho Alto Alegre,Médio Produtor,Starter,1019.18,6,"Estoque,Financeiro,Produção",2023-12-17,Elena Santos,MS
+283,Haras União dos Santos,Pequeno Produtor,Professional,280.27,2,"Compras,Estoque,Máquinas,Produção",2024-09-28,Ana Silva,TO
+284,Fazenda Esperança,Médio Produtor,Starter,2008.89,3,"Planejamento,Produção,Vendas",2023-01-18,Ana Silva,SP
+285,Haras Santa Maria,Pequeno Produtor,Starter,466.59,1,"Compras,Estoque,Produção",2024-03-21,Diego Oliveira,MG
+286,Estância Esperança,Médio Produtor,Starter,1829.58,4,"Financeiro,Máquinas,Vendas",2022-10-12,Carla Mendes,RS
+287,Fazenda Bela Vista,Pequeno Produtor,Starter,357.8,3,"Planejamento,Produção",2023-08-25,Bruno Costa,GO
+288,Fazenda Alto Alegre dos Santos,Médio Produtor,Professional,1198.66,3,"Financeiro,Vendas",2022-12-02,Carla Mendes,MT
+289,Estância Ouro Verde,Médio Produtor,Professional,2461.39,5,"Estoque,Financeiro,Máquinas,Produção,Vendas",2023-10-15,Diego Oliveira,MG
+290,Sítio Esperança,Grande Produtor,Enterprise,2553.2,12,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2023-10-02,Diego Oliveira,RS
+291,Sítio Esperança,Pequeno Produtor,Starter,710.4,2,"Estoque,Financeiro",2022-11-05,Diego Oliveira,TO
+292,Sítio Primavera,Médio Produtor,Professional,1544.88,7,"Financeiro,Máquinas,Planejamento,Produção,Vendas",2022-04-30,Diego Oliveira,MG
+293,Granja Recanto Oliveira,Grande Produtor,Professional,2848.35,18,"Máquinas,Produção",2023-04-29,Diego Oliveira,SC
+294,Granja Paraíso Silva,Médio Produtor,Professional,961.91,8,"Compras,Máquinas,Planejamento",2024-05-18,Diego Oliveira,SC
+295,Haras Bom Futuro,Grande Produtor,Enterprise,7281.79,10,"Estoque,Financeiro,Máquinas,Planejamento,Vendas",2023-05-17,Ana Silva,GO
+296,Rancho Ouro Verde Ferreira,Pequeno Produtor,Professional,543.82,1,"Compras,Financeiro,Máquinas,Planejamento,Produção",2022-12-18,Ana Silva,SP
+297,Fazenda Sol Nascente,Grande Produtor,Professional,7797.44,17,"Compras,Máquinas,Produção",2022-02-17,Bruno Costa,MS
+298,Fazenda Campo Belo,Médio Produtor,Professional,1604.33,8,"Compras,Financeiro,Produção,Vendas",2022-09-01,Carla Mendes,MT
+299,Sítio Nova Era Souza,Médio Produtor,Starter,980.75,4,"Compras,Estoque,Produção",2024-06-30,Bruno Costa,GO
+300,Granja União,Médio Produtor,Professional,2018.54,3,"Estoque,Financeiro,Máquinas,Produção,Vendas",2023-07-07,Carla Mendes,SP
+301,Sítio Esperança,Médio Produtor,Starter,2390.02,7,"Estoque,Máquinas,Vendas",2024-04-23,Diego Oliveira,TO
+302,Estância Santa Fé,Médio Produtor,Starter,2298.36,6,"Compras,Planejamento",2022-02-04,Bruno Costa,PR
+303,Haras Serra Verde,Pequeno Produtor,Professional,649.06,2,"Estoque,Máquinas,Produção,Vendas",2024-03-26,Ana Silva,PR
+304,Haras Ouro Verde,Cooperativa,Professional,24291.55,89,"Compras,Financeiro,Planejamento,Produção",2023-03-01,Carla Mendes,SC
+305,Fazenda Nova Era Silva,Pequeno Produtor,Professional,684.98,3,"Compras,Financeiro",2024-05-22,Ana Silva,MT
+306,Rancho Esperança,Médio Produtor,Starter,905.46,5,"Máquinas,Vendas",2024-09-14,Bruno Costa,SC
+307,Haras Campo Belo,Grande Produtor,Professional,5586.99,15,"Compras,Financeiro,Máquinas,Produção",2023-09-17,Bruno Costa,SP
+308,Granja Bela Vista,Pequeno Produtor,Starter,572.34,2,"Máquinas,Produção",2022-10-22,Carla Mendes,GO
+309,Sítio Progresso,Médio Produtor,Enterprise,1300.1,4,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-01-06,Carla Mendes,MT
+310,Granja Serra Verde,Pequeno Produtor,Professional,762.5,1,"Financeiro,Planejamento,Vendas",2022-08-17,Elena Santos,TO
+311,Sítio Ouro Verde,Médio Produtor,Starter,2003.06,7,"Estoque,Vendas",2024-08-09,Diego Oliveira,BA
+312,Granja Primavera,Pequeno Produtor,Starter,328.01,2,"Estoque,Máquinas,Planejamento",2022-02-17,Diego Oliveira,SP
+313,Fazenda Bom Futuro Oliveira,Pequeno Produtor,Starter,344.21,3,"Financeiro,Produção",2022-04-25,Bruno Costa,SP
+314,Fazenda Progresso,Grande Produtor,Professional,4562.27,24,"Compras,Estoque,Financeiro,Máquinas,Planejamento",2023-05-10,Ana Silva,SC
+315,Granja Ouro Verde,Médio Produtor,Professional,1158.33,8,"Compras,Máquinas,Produção",2022-06-15,Ana Silva,MG
+316,Estância Bela Vista Silva,Médio Produtor,Starter,1580.68,5,"Financeiro,Máquinas",2024-08-23,Ana Silva,MT
+317,Haras Paraíso Ferreira,Pequeno Produtor,Professional,442.67,2,"Compras,Produção",2024-06-18,Carla Mendes,SP
+318,Rancho Bom Futuro,Médio Produtor,Starter,2377.68,3,"Máquinas,Planejamento,Produção",2023-02-04,Ana Silva,SP
+319,Granja Bela Vista dos Santos,Médio Produtor,Professional,1031.85,6,"Estoque,Planejamento,Produção,Vendas",2022-02-10,Elena Santos,SP
+320,Haras Alto Alegre Silva,Médio Produtor,Starter,1730.79,3,"Estoque,Planejamento,Produção",2024-03-15,Bruno Costa,GO
+321,Fazenda Serra Verde,Médio Produtor,Starter,994.86,8,"Máquinas,Vendas",2023-07-03,Carla Mendes,MT
+322,Sítio Campo Belo,Pequeno Produtor,Professional,492.31,2,"Estoque,Financeiro,Máquinas,Produção",2023-12-31,Carla Mendes,MS
+323,Sítio Sol Nascente,Médio Produtor,Starter,1793.09,7,"Compras,Máquinas,Planejamento",2024-04-28,Ana Silva,BA
+324,Granja Esperança Ferreira,Pequeno Produtor,Starter,607.75,2,"Compras,Máquinas,Planejamento",2022-08-16,Bruno Costa,MG
+325,Fazenda Alto Alegre,Grande Produtor,Enterprise,3270.01,25,"Financeiro,Planejamento,Produção",2022-10-04,Ana Silva,TO
+326,Granja Serra Verde Ferreira,Médio Produtor,Professional,1161.69,3,"Compras,Estoque,Máquinas,Vendas",2023-10-09,Bruno Costa,SC
+327,Sítio Recanto,Pequeno Produtor,Starter,206.36,1,"Máquinas,Vendas",2024-05-27,Bruno Costa,PR
+328,Granja Terra Rica,Médio Produtor,Professional,1409.95,4,"Estoque,Financeiro,Planejamento,Produção,Vendas",2024-09-04,Carla Mendes,RS
+329,Sítio Bom Futuro,Grande Produtor,Starter,6066.89,11,"Máquinas,Planejamento,Produção",2023-03-05,Carla Mendes,MS
+330,Granja Santa Maria,Médio Produtor,Enterprise,932.32,5,"Compras,Estoque,Máquinas,Planejamento,Vendas",2023-06-07,Diego Oliveira,PR
+331,Haras Esperança,Pequeno Produtor,Starter,508.72,2,"Estoque,Máquinas",2024-05-09,Bruno Costa,BA
+332,Granja Recanto Ferreira,Grande Produtor,Professional,5148.34,23,"Compras,Estoque,Financeiro,Máquinas,Vendas",2024-02-11,Ana Silva,SP
+333,Haras Serra Verde,Grande Produtor,Starter,3414.88,13,"Financeiro,Máquinas,Vendas",2022-05-02,Diego Oliveira,GO
+334,Sítio Paraíso,Pequeno Produtor,Enterprise,720.38,1,"Compras,Máquinas,Vendas",2024-05-24,Diego Oliveira,MT
+335,Fazenda Nova Era,Pequeno Produtor,Professional,753.41,3,"Compras,Estoque",2023-09-19,Ana Silva,SC
+336,Granja Bela Vista,Médio Produtor,Professional,1829.37,4,"Compras,Financeiro,Máquinas,Produção,Vendas",2023-06-12,Carla Mendes,BA
+337,Haras Recanto Silva,Médio Produtor,Starter,873.85,7,"Compras,Estoque,Produção",2023-10-25,Carla Mendes,MT
+338,Fazenda Recanto,Médio Produtor,Starter,2260.39,5,"Estoque,Financeiro,Planejamento",2022-10-22,Diego Oliveira,SC
+339,Granja Ouro Verde,Pequeno Produtor,Professional,612.66,2,"Compras,Estoque,Financeiro,Máquinas,Planejamento",2023-02-26,Bruno Costa,TO
+340,Haras Bom Futuro,Pequeno Produtor,Professional,652.98,2,"Compras,Estoque,Máquinas,Planejamento,Vendas",2023-12-08,Carla Mendes,MG
+341,Granja Paraíso,Médio Produtor,Professional,1988.83,4,"Estoque,Vendas",2023-09-03,Diego Oliveira,SP
+342,Sítio Terra Rica dos Santos,Pequeno Produtor,Enterprise,203.17,1,"Compras,Máquinas,Vendas",2024-07-19,Ana Silva,BA
+343,Fazenda Nova Era,Grande Produtor,Professional,6108.96,17,"Estoque,Máquinas",2023-01-01,Carla Mendes,SC
+344,Sítio Horizonte Silva,Pequeno Produtor,Starter,559.71,3,"Estoque,Vendas",2022-11-27,Ana Silva,MG
+345,Fazenda Bela Vista Ferreira,Cooperativa,Professional,14003.17,75,"Estoque,Financeiro,Máquinas,Planejamento,Vendas",2022-10-28,Ana Silva,TO
+346,Rancho Alto Alegre dos Santos,Pequeno Produtor,Enterprise,365.9,3,"Compras,Máquinas,Vendas",2024-10-13,Bruno Costa,SC
+347,Estância Santa Fé,Pequeno Produtor,Enterprise,681.77,2,"Compras,Estoque,Máquinas,Planejamento,Produção,Vendas",2022-08-21,Ana Silva,TO
+348,Estância Alto Alegre,Grande Produtor,Professional,3918.01,20,"Estoque,Máquinas,Produção",2022-07-21,Bruno Costa,MT
+349,Sítio Recanto Silva,Pequeno Produtor,Starter,604.22,2,"Estoque,Vendas",2023-06-18,Bruno Costa,RS
+350,Granja Terra Rica dos Santos,Médio Produtor,Starter,1211.5,5,"Estoque,Máquinas",2022-06-16,Ana Silva,MG
+351,Rancho Recanto,Grande Produtor,Professional,6148.83,8,"Compras,Máquinas",2023-10-03,Carla Mendes,RS
+352,Rancho Primavera,Pequeno Produtor,Professional,506.68,2,"Estoque,Máquinas,Vendas",2024-08-23,Carla Mendes,SP
+353,Fazenda Santa Maria,Médio Produtor,Starter,1966.78,4,"Financeiro,Produção,Vendas",2023-07-04,Bruno Costa,BA
+354,Granja Campo Belo,Médio Produtor,Starter,1841.72,5,"Planejamento,Vendas",2024-02-18,Bruno Costa,RS
+355,Fazenda Água Clara,Pequeno Produtor,Professional,651.32,2,"Compras,Estoque,Máquinas,Planejamento,Vendas",2022-11-15,Ana Silva,SC
+356,Sítio Horizonte,Pequeno Produtor,Starter,287.51,3,"Compras,Financeiro",2024-04-20,Bruno Costa,MS
+357,Sítio Água Clara,Médio Produtor,Starter,1755.64,7,"Compras,Financeiro",2022-11-10,Ana Silva,MG
+358,Haras Paraíso Ferreira,Pequeno Produtor,Starter,416.58,3,"Compras,Financeiro,Planejamento",2024-06-15,Bruno Costa,SC
+359,Haras União,Pequeno Produtor,Professional,413.07,3,"Compras,Estoque,Financeiro,Máquinas,Produção",2023-01-28,Bruno Costa,MS
+360,Haras Serra Verde,Pequeno Produtor,Professional,442.86,1,"Estoque,Planejamento",2024-02-27,Bruno Costa,TO
+361,Haras Sol Nascente,Médio Produtor,Starter,1556.33,5,"Compras,Estoque,Produção",2022-05-27,Ana Silva,MG
+362,Fazenda Esperança Silva,Pequeno Produtor,Starter,257.33,2,"Compras,Financeiro",2023-04-30,Diego Oliveira,MG
+363,Estância Primavera,Médio Produtor,Enterprise,1325.93,4,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-09-12,Carla Mendes,SC
+364,Granja Ouro Verde,Grande Produtor,Professional,3243.13,25,"Compras,Máquinas,Vendas",2023-01-10,Diego Oliveira,SC
+365,Fazenda Santa Maria,Pequeno Produtor,Starter,523.8,1,"Compras,Máquinas,Planejamento",2024-01-25,Ana Silva,PR
+366,Granja Terra Rica Ferreira,Pequeno Produtor,Professional,204.99,2,"Compras,Financeiro,Máquinas,Planejamento,Vendas",2024-02-24,Diego Oliveira,BA
+367,Granja Paraíso,Pequeno Produtor,Starter,642.27,2,"Estoque,Financeiro,Planejamento",2023-08-12,Carla Mendes,MT
+368,Haras Santa Fé,Pequeno Produtor,Professional,685.29,2,"Estoque,Financeiro,Máquinas",2024-05-31,Bruno Costa,MT
+369,Estância Água Clara Souza,Médio Produtor,Professional,1345.09,4,"Financeiro,Vendas",2024-04-10,Elena Santos,SP
+370,Fazenda Campo Belo Silva,Pequeno Produtor,Starter,496.15,2,"Compras,Máquinas,Planejamento",2023-07-01,Diego Oliveira,SP
+371,Fazenda Esperança,Pequeno Produtor,Starter,525.92,1,"Máquinas,Planejamento",2022-07-04,Bruno Costa,GO
+372,Sítio Primavera,Pequeno Produtor,Enterprise,348.3,1,"Compras,Financeiro,Produção",2023-05-03,Carla Mendes,MT
+373,Estância São José,Grande Produtor,Starter,6505.3,25,"Compras,Planejamento",2023-01-03,Bruno Costa,GO
+374,Sítio Santa Maria,Cooperativa,Starter,15380.75,26,"Máquinas,Planejamento",2023-02-27,Ana Silva,TO
+375,Granja Campo Belo,Médio Produtor,Professional,1813.56,5,"Estoque,Máquinas",2023-05-25,Ana Silva,SP
+376,Haras Terra Rica,Pequeno Produtor,Professional,620.8,1,"Compras,Estoque,Planejamento",2022-01-16,Carla Mendes,RS
+377,Granja Serra Verde,Médio Produtor,Starter,1442.21,8,"Financeiro,Planejamento",2023-06-09,Diego Oliveira,RS
+378,Sítio Santa Fé Oliveira,Pequeno Produtor,Starter,408.6,3,"Planejamento,Produção,Vendas",2024-05-06,Ana Silva,SC
+379,Granja Sol Nascente,Pequeno Produtor,Starter,582.82,2,"Financeiro,Vendas",2022-05-24,Bruno Costa,MG
+380,Fazenda Esperança,Médio Produtor,Professional,1458.73,7,"Estoque,Máquinas,Planejamento,Produção,Vendas",2023-08-25,Carla Mendes,MG
+381,Haras Bom Futuro,Pequeno Produtor,Enterprise,307.18,1,"Compras,Estoque,Financeiro",2024-07-08,Ana Silva,SC
+382,Fazenda Santa Fé,Médio Produtor,Professional,883.45,4,"Estoque,Financeiro",2022-12-16,Carla Mendes,SP
+383,Haras Boa Vista,Pequeno Produtor,Professional,734.26,2,"Máquinas,Vendas",2024-01-19,Carla Mendes,MG
+384,Rancho Esperança,Grande Produtor,Enterprise,3034.16,15,"Compras,Estoque,Financeiro,Planejamento,Produção,Vendas",2023-03-26,Diego Oliveira,TO
+385,Haras Progresso,Pequeno Produtor,Professional,599.15,1,"Estoque,Máquinas,Vendas",2023-09-02,Carla Mendes,TO
+386,Granja Sol Nascente,Pequeno Produtor,Starter,389.09,2,"Compras,Máquinas,Produção",2022-06-25,Diego Oliveira,GO
+387,Sítio Serra Verde Silva,Pequeno Produtor,Professional,646.75,2,"Compras,Estoque,Financeiro,Máquinas,Vendas",2023-02-15,Ana Silva,GO
+388,Sítio Água Clara,Grande Produtor,Starter,7020.67,16,"Financeiro,Máquinas",2023-07-04,Bruno Costa,TO
+389,Rancho Progresso,Pequeno Produtor,Starter,380.18,3,"Estoque,Financeiro,Vendas",2022-10-08,Bruno Costa,TO
+390,Rancho Ouro Verde,Grande Produtor,Starter,6032.4,9,"Financeiro,Máquinas,Planejamento",2023-10-27,Elena Santos,MG
+391,Granja União,Grande Produtor,Starter,6090.29,8,"Financeiro,Planejamento,Vendas",2024-09-05,Bruno Costa,GO
+392,Sítio União,Pequeno Produtor,Professional,798.42,2,"Compras,Estoque",2023-12-26,Diego Oliveira,RS
+393,Granja Nova Era,Médio Produtor,Starter,1478.63,3,"Compras,Estoque,Vendas",2022-08-29,Ana Silva,TO
+394,Granja Boa Vista Souza,Pequeno Produtor,Professional,641.4,1,"Compras,Financeiro,Planejamento",2023-11-21,Diego Oliveira,BA
+395,Granja Santa Fé,Pequeno Produtor,Starter,406.71,3,"Máquinas,Planejamento",2024-04-27,Elena Santos,RS
+396,Sítio Paraíso,Pequeno Produtor,Professional,319.81,2,"Financeiro,Máquinas,Produção",2024-06-24,Diego Oliveira,MT
+397,Estância Bela Vista,Pequeno Produtor,Professional,266.77,2,"Estoque,Financeiro,Máquinas,Planejamento,Vendas",2023-04-07,Carla Mendes,PR
+398,Haras Paraíso Souza,Médio Produtor,Professional,1440.23,8,"Estoque,Planejamento",2024-08-17,Bruno Costa,SP
+399,Rancho Sol Nascente,Pequeno Produtor,Professional,597.79,3,"Financeiro,Máquinas,Planejamento,Produção",2022-05-13,Elena Santos,SC
+400,Granja Santa Maria Ferreira,Cooperativa,Starter,13362.75,93,"Estoque,Máquinas",2023-05-24,Elena Santos,MT
+401,Granja Água Clara,Pequeno Produtor,Starter,294.2,2,"Máquinas,Planejamento,Produção",2024-02-19,Elena Santos,MT
+402,Granja Paraíso,Grande Produtor,Enterprise,6981.72,8,"Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-07-20,Diego Oliveira,GO
+403,Granja Nova Era,Pequeno Produtor,Professional,455.88,2,"Compras,Estoque,Produção,Vendas",2022-12-19,Ana Silva,MT
+404,Granja Esperança Silva,Médio Produtor,Enterprise,2346.26,6,"Estoque,Produção,Vendas",2023-11-27,Ana Silva,SP
+405,Sítio Progresso Ferreira,Médio Produtor,Enterprise,1503.87,6,"Compras,Estoque,Planejamento,Produção",2022-08-12,Ana Silva,TO
+406,Rancho União,Pequeno Produtor,Professional,338.55,1,"Financeiro,Planejamento,Produção",2024-07-28,Diego Oliveira,TO
+407,Fazenda Água Clara,Médio Produtor,Professional,1112.76,6,"Compras,Estoque,Financeiro,Produção,Vendas",2024-09-14,Bruno Costa,GO
+408,Rancho Sol Nascente,Médio Produtor,Enterprise,2088.22,3,"Compras,Máquinas,Vendas",2022-11-13,Bruno Costa,SP
+409,Fazenda Sol Nascente,Médio Produtor,Professional,2024.34,6,"Financeiro,Vendas",2023-07-13,Bruno Costa,BA
+410,Estância Santa Fé Oliveira,Cooperativa,Starter,14585.76,31,"Compras,Planejamento",2023-09-06,Elena Santos,TO
+411,Haras Bela Vista Souza,Grande Produtor,Professional,7470.22,22,"Compras,Financeiro,Máquinas,Produção,Vendas",2022-08-12,Carla Mendes,MS
+412,Haras Progresso,Médio Produtor,Starter,1803.54,8,"Compras,Financeiro",2024-02-04,Bruno Costa,MG
+413,Sítio Campo Belo,Pequeno Produtor,Professional,580.44,1,"Compras,Estoque,Máquinas,Produção,Vendas",2023-04-03,Bruno Costa,PR
+414,Fazenda União,Pequeno Produtor,Starter,661.49,1,"Compras,Máquinas,Planejamento",2023-12-27,Carla Mendes,SP
+415,Haras Primavera,Médio Produtor,Starter,1579.69,6,"Compras,Vendas",2024-02-17,Ana Silva,RS
+416,Fazenda Horizonte,Pequeno Produtor,Professional,346.83,3,"Estoque,Máquinas,Produção,Vendas",2024-08-28,Ana Silva,PR
+417,Estância Paraíso,Grande Produtor,Professional,7109.08,17,"Compras,Financeiro,Máquinas,Produção",2024-04-18,Ana Silva,TO
+418,Fazenda Ouro Verde,Médio Produtor,Professional,2442.7,8,"Financeiro,Máquinas,Planejamento,Vendas",2023-10-06,Elena Santos,MG
+419,Granja São José Ferreira,Pequeno Produtor,Starter,616.77,2,"Compras,Máquinas,Vendas",2024-03-17,Diego Oliveira,MG
+420,Granja Terra Rica,Médio Produtor,Professional,2387.62,8,"Compras,Planejamento,Produção,Vendas",2023-04-28,Carla Mendes,TO
+421,Fazenda Santa Maria,Médio Produtor,Professional,1874.16,6,"Estoque,Planejamento,Vendas",2022-01-19,Ana Silva,MG
+422,Sítio Santa Maria,Médio Produtor,Starter,1846.02,6,"Financeiro,Planejamento,Produção",2023-03-24,Diego Oliveira,MT
+423,Rancho Recanto,Pequeno Produtor,Starter,380.17,3,"Financeiro,Máquinas,Produção",2022-11-15,Bruno Costa,SP
+424,Rancho Bela Vista,Grande Produtor,Starter,7086.04,23,"Estoque,Financeiro,Máquinas",2023-06-12,Ana Silva,RS
+425,Estância Terra Rica Silva,Médio Produtor,Professional,2062.39,7,"Financeiro,Planejamento,Produção,Vendas",2024-03-18,Carla Mendes,MT
+426,Fazenda Serra Verde,Grande Produtor,Starter,4563.82,25,"Máquinas,Vendas",2023-09-15,Ana Silva,MS
+427,Fazenda Terra Rica,Médio Produtor,Starter,947.56,4,"Compras,Estoque,Planejamento",2023-04-29,Bruno Costa,GO
+428,Estância Campo Belo dos Santos,Grande Produtor,Professional,2637.14,23,"Compras,Estoque,Planejamento",2022-09-28,Elena Santos,SC
+429,Fazenda Paraíso,Médio Produtor,Starter,2031.77,6,"Financeiro,Produção,Vendas",2024-10-13,Bruno Costa,MS
+430,Estância Nova Era Oliveira,Médio Produtor,Starter,1684.98,8,"Financeiro,Planejamento,Vendas",2023-01-02,Elena Santos,SC
+431,Granja Esperança Oliveira,Pequeno Produtor,Professional,270.59,1,"Financeiro,Planejamento,Produção",2022-02-09,Carla Mendes,SC
+432,Estância Bela Vista,Pequeno Produtor,Starter,622.61,2,"Estoque,Financeiro",2023-12-04,Carla Mendes,PR
+433,Granja Recanto,Pequeno Produtor,Enterprise,230.27,2,"Compras,Financeiro",2023-09-12,Ana Silva,RS
+434,Haras Santa Fé Oliveira,Médio Produtor,Starter,2189.65,8,"Compras,Máquinas",2023-03-16,Ana Silva,RS
+435,Estância Santa Fé,Médio Produtor,Enterprise,1044.33,7,"Compras,Estoque,Máquinas,Planejamento",2022-08-02,Elena Santos,MG
+436,Fazenda Bom Futuro,Médio Produtor,Starter,1584.11,4,"Máquinas,Planejamento,Vendas",2023-03-09,Ana Silva,MG
+437,Rancho Bom Futuro Silva,Pequeno Produtor,Professional,675.46,3,"Compras,Estoque,Máquinas,Planejamento,Vendas",2024-02-11,Carla Mendes,TO
+438,Rancho Campo Belo,Pequeno Produtor,Enterprise,540.33,2,"Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-06-22,Carla Mendes,RS
+439,Granja Horizonte,Pequeno Produtor,Enterprise,241.76,1,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2024-03-09,Diego Oliveira,PR
+440,Estância Ouro Verde,Médio Produtor,Professional,1295.56,7,"Compras,Estoque,Máquinas,Planejamento,Vendas",2022-07-27,Elena Santos,MS
+441,Fazenda Santa Maria,Cooperativa,Professional,18395.34,90,"Estoque,Financeiro,Máquinas,Planejamento,Produção",2022-04-09,Carla Mendes,MS
+442,Granja Nova Era,Pequeno Produtor,Starter,218.71,2,"Compras,Planejamento,Produção",2023-08-29,Bruno Costa,RS
+443,Sítio Primavera,Pequeno Produtor,Professional,706.0,2,"Estoque,Financeiro,Máquinas,Planejamento,Vendas",2024-08-05,Carla Mendes,PR
+444,Estância Sol Nascente Ferreira,Pequeno Produtor,Professional,449.51,2,"Compras,Estoque,Máquinas,Planejamento,Vendas",2022-07-01,Bruno Costa,SP
+445,Granja Primavera,Médio Produtor,Professional,1202.47,7,"Compras,Planejamento,Produção,Vendas",2024-09-13,Elena Santos,MG
+446,Haras Boa Vista,Médio Produtor,Enterprise,936.11,8,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2023-06-22,Carla Mendes,SC
+447,Granja Campo Belo,Médio Produtor,Starter,889.72,5,"Compras,Máquinas",2023-05-12,Elena Santos,MT
+448,Granja Progresso,Pequeno Produtor,Starter,753.72,3,"Planejamento,Produção,Vendas",2024-08-16,Carla Mendes,MT
+449,Estância Água Clara,Grande Produtor,Professional,4077.49,10,"Financeiro,Planejamento,Vendas",2024-02-02,Ana Silva,SP
+450,Haras Sol Nascente,Médio Produtor,Professional,2347.22,8,"Compras,Planejamento,Produção",2022-07-13,Ana Silva,SC
+451,Rancho Sol Nascente,Grande Produtor,Starter,2964.21,12,"Compras,Máquinas",2022-09-08,Elena Santos,PR
+452,Estância Primavera,Pequeno Produtor,Professional,407.05,3,"Estoque,Financeiro,Máquinas,Produção",2023-06-30,Bruno Costa,SC
+453,Rancho Bom Futuro,Pequeno Produtor,Professional,434.04,2,"Compras,Financeiro,Vendas",2023-12-27,Elena Santos,SC
+454,Estância Campo Belo dos Santos,Médio Produtor,Starter,2360.11,8,"Compras,Máquinas,Vendas",2022-03-22,Carla Mendes,MT
+455,Granja Campo Belo,Médio Produtor,Starter,2114.36,8,"Máquinas,Produção",2023-02-23,Diego Oliveira,PR
+456,Rancho Terra Rica Oliveira,Pequeno Produtor,Starter,205.09,1,"Compras,Financeiro",2023-04-29,Ana Silva,MT
+457,Fazenda Boa Vista,Pequeno Produtor,Starter,255.16,3,"Produção,Vendas",2024-06-15,Diego Oliveira,PR
+458,Haras Boa Vista,Pequeno Produtor,Professional,588.74,1,"Estoque,Produção",2024-02-01,Bruno Costa,MT
+459,Fazenda Água Clara,Médio Produtor,Professional,1934.88,5,"Estoque,Financeiro,Planejamento,Produção",2023-09-22,Bruno Costa,MT
+460,Rancho Nova Era,Pequeno Produtor,Starter,787.65,1,"Compras,Estoque,Produção",2024-06-28,Ana Silva,MG
+461,Fazenda Primavera dos Santos,Grande Produtor,Professional,3068.08,10,"Produção,Vendas",2024-02-04,Diego Oliveira,SP
+462,Rancho Ouro Verde,Médio Produtor,Starter,1990.09,6,"Produção,Vendas",2022-02-28,Diego Oliveira,MG
+463,Estância Serra Verde,Médio Produtor,Starter,2422.06,6,"Máquinas,Vendas",2022-03-05,Elena Santos,MG
+464,Sítio Serra Verde,Pequeno Produtor,Enterprise,404.04,2,"Estoque,Financeiro,Máquinas,Produção",2022-01-31,Bruno Costa,MG
+465,Haras Recanto Souza,Médio Produtor,Starter,944.27,8,"Estoque,Máquinas,Produção",2024-09-11,Ana Silva,MG
+466,Haras São José,Médio Produtor,Professional,1649.46,6,"Financeiro,Planejamento",2024-08-21,Bruno Costa,GO
+467,Haras União,Grande Produtor,Professional,5021.04,25,"Estoque,Produção,Vendas",2022-03-15,Ana Silva,SP
+468,Granja Boa Vista,Médio Produtor,Enterprise,877.86,8,"Compras,Estoque,Financeiro,Máquinas,Planejamento,Produção,Vendas",2023-01-31,Ana Silva,MG
+469,Haras Recanto,Pequeno Produtor,Professional,569.38,1,"Compras,Máquinas,Planejamento",2023-11-20,Ana Silva,MS
+470,Haras Terra Rica,Grande Produtor,Professional,6703.25,13,"Estoque,Financeiro,Máquinas,Planejamento",2022-09-03,Bruno Costa,RS
+471,Fazenda Horizonte,Pequeno Produtor,Professional,280.02,3,"Compras,Estoque,Financeiro,Máquinas,Vendas",2024-10-11,Ana Silva,MT
+472,Sítio Progresso,Pequeno Produtor,Professional,663.54,3,"Estoque,Máquinas,Planejamento",2023-05-01,Bruno Costa,SP
+473,Granja Esperança,Médio Produtor,Professional,1840.48,3,"Compras,Estoque,Financeiro,Planejamento",2024-04-04,Ana Silva,SC
+474,Rancho Primavera dos Santos,Médio Produtor,Professional,1864.99,4,"Estoque,Financeiro,Máquinas,Produção",2022-11-16,Diego Oliveira,SP
+475,Sítio Santa Maria,Médio Produtor,Starter,1538.94,5,"Financeiro,Máquinas,Produção",2022-03-15,Carla Mendes,MG
+476,Estância Sol Nascente Souza,Pequeno Produtor,Starter,466.89,3,"Compras,Estoque,Planejamento",2024-02-25,Diego Oliveira,GO
+477,Rancho Progresso,Pequeno Produtor,Starter,482.59,2,"Compras,Estoque",2024-03-10,Elena Santos,PR
+478,Fazenda Água Clara Souza,Médio Produtor,Starter,1409.6,5,"Estoque,Planejamento",2024-09-15,Diego Oliveira,RS
+479,Granja Sol Nascente Ferreira,Pequeno Produtor,Professional,331.91,2,"Máquinas,Produção,Vendas",2022-04-04,Ana Silva,RS
+480,Sítio Campo Belo,Grande Produtor,Starter,5104.19,22,"Compras,Financeiro,Produção",2022-09-25,Elena Santos,GO
+481,Haras Esperança,Grande Produtor,Professional,3319.33,8,"Compras,Estoque,Financeiro,Máquinas,Produção",2023-04-23,Bruno Costa,GO
+482,Fazenda Santa Maria,Pequeno Produtor,Professional,615.9,2,"Estoque,Planejamento,Produção",2024-02-16,Carla Mendes,MT
+483,Haras Bom Futuro Oliveira,Pequeno Produtor,Professional,542.23,3,"Compras,Máquinas",2022-08-19,Ana Silva,RS
+484,Haras Paraíso,Médio Produtor,Starter,1866.42,6,"Financeiro,Planejamento,Vendas",2023-08-08,Diego Oliveira,GO
+485,Fazenda Bom Futuro,Médio Produtor,Starter,2297.44,8,"Produção,Vendas",2023-10-11,Elena Santos,TO
+486,Estância Sol Nascente,Pequeno Produtor,Starter,588.9,3,"Produção,Vendas",2022-08-17,Ana Silva,RS
+487,Estância Alto Alegre,Médio Produtor,Professional,2280.92,8,"Estoque,Máquinas,Produção",2023-11-24,Bruno Costa,MT

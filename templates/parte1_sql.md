@@ -6,7 +6,7 @@
 
 ## Pergunta 1
 
-Liste os 10 clientes com maior MRR que tiveram zero logins no último mês (dezembro de 2024).
+Liste os 10 clientes com maior MRR que tiveram zero logins no último mês (2024-12).
 
 ### Query
 
@@ -31,7 +31,7 @@ Observação: no dataset existem apenas 4 clientes com zero logins em 2024 12.
 
 ## Pergunta 2
 
-Calcule a taxa de churn por segmento considerando os eventos de churn registrados. Ordenei do maior para o menor.
+Calcule a taxa de churn por segmento considerando os eventos de churn registrados. Ordene do maior para o menor.
 
 ### Query
 
@@ -70,7 +70,7 @@ ORDER BY taxa_churn DESC, churns DESC;
 
 ## Pergunta 3
 
-Qual CSM tem a melhor taxa de retenção (menor percentual de churn entre seus clientes).
+Qual CSM tem a melhor taxa de retenção? (menor % de churn entre seus clientes). Mostre a query e interprete o resultado brevemente.
 
 ### Query
 

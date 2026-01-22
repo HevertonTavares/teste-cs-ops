@@ -1,9 +1,5 @@
 # Parte 1: SQL
 
-**Candidato(a):** Heverton Vilas Boas Tavares
-
-**Data:** 22 de janeiro de 2026
-
 ## Pergunta 1
 
 Liste os 10 clientes com maior MRR que tiveram zero logins no último mês (2024-12).

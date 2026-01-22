@@ -66,7 +66,26 @@ Arquivo anexo: entregas health_score_calculo.py e entregas health_scores.csv
 
 ## 5. Limitações e melhorias
 
-1. Eu não tenho informação de limites de plano, por exemplo limite de usuários ou de módulos, o que ajudaria a detectar expansão por saturação. 
-2. Eu não tenho métricas de valor entregue, por exemplo resultados no campo, economia, produtividade, então uso é proxy.
-3. Eu não tenho dados de features específicas, então módulo usado é agregado e pode mascarar adoção parcial.
+1. Eu não tenho informações sobre limites de plano, por exemplo limite de usuários ou de módulos, o que ajudaria a detectar expansão por saturação.
 
+2. Eu não tenho métricas de valor entregue, por exemplo resultados no campo, economia e produtividade, então uso é proxy e pode não refletir sucesso real.
+
+3. Eu não tenho dados de uso por recurso específico dentro de cada módulo, então o módulo usado pode mascarar adoção parcial.
+
+4. Eu não tenho o detalhamento semanal ou diária de uso, então quedas rápidas podem ser percebidas apenas no fechamento do mês, reduzindo tempo de reação.
+
+5. Eu não tenho baseline individual por cliente, então a mesma queda percentual pode ter impacto diferente dependendo do padrão histórico de cada conta.
+
+6. Eu não tenho variáveis de suporte e relacionamento, por exemplo volume de tickets, tempo de resolução e sentimento, o que ajudaria a explicar risco além do uso.
+
+7. Eu não tenho informações comerciais e financeiras, por exemplo atraso de pagamento, downgrade e renegociação, que são sinais fortes para churn e também para expansão.
+
+## 5.1 Melhorias
+
+1. Score por semana e não só por mês, eu colocaria um uso semanal ou diário para capturar queda antes e ganhar tempo de ação.
+
+2. Health Score com baseline individual por cliente, em vez de comparar todo mundo igual, eu comparo o cliente contra ele mesmo. Exemplo queda de 50 por cento vs média dos últimos 3 meses.
+
+3. Automação de playbooks por faixa de risco. Exemplo High risco cria tarefa e alerta para CSM.
+
+4. Adicionar indicadores de adoção real: Percentual de usuários ativos sobre contratados, módulos usados sobre módulos contratados, ações chave realizadas. Isso melhoria muito a precisão.

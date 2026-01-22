@@ -66,7 +66,7 @@ Arquivo anexo: entregas health_score_calculo.py e entregas health_scores.csv
 
 ## 5. Limitações e melhorias
 
-1. Eu não tenho informação de limites de plano, por exemplo limite de usuários ou de módulos, o que ajudaria a detectar expansão por saturação  
-2. Eu não tenho métricas de valor entregue, por exemplo resultados no campo, economia, produtividade, então uso é proxy  
-3. Eu não tenho dados de features específicas, então módulo usado é agregado e pode mascarar adoção parcial
+1. Eu não tenho informação de limites de plano, por exemplo limite de usuários ou de módulos, o que ajudaria a detectar expansão por saturação. 
+2. Eu não tenho métricas de valor entregue, por exemplo resultados no campo, economia, produtividade, então uso é proxy.
+3. Eu não tenho dados de features específicas, então módulo usado é agregado e pode mascarar adoção parcial.
 

@@ -29,33 +29,102 @@ Eu priorizei clientes ativos que não estão no plano Enterprise e que apresenta
 
 ### Para clientes em risco
 
-Ação proposta: campanha de recuperação de adoção em duas etapas, focada em valor rápido e redução de fricção.
+Ação proposta: Detecção e recuperação de adoção com segmentação por causa raiz e cadência operacional padronizada.
 
-Objetivo: recuperar uso e reduzir probabilidade de churn antes de virar cancelamento formal.
-
+Objetivo: Detectar risco cedo, aplicar as ações certas por perfil de risco e medir impacto em churn, adoção e tickets
 Como executar
 
-1. Eu crio uma lista dinâmica no CRM com clientes em Crítico ou Atenção com queda de uso e tickets altos, atualizada semanalmente.  
-2. Eu disparo um contato consultivo curto, com foco em um objetivo específico do cliente e um roteiro de reativação guiada no produto.  
-3. Eu agendo uma sessão de 30 minutos de revisão de módulos, removendo bloqueios e configurando alertas e relatórios que gerem valor em 7 dias.
+1. Eu construo uma visão única de risco combinando uso e atrito
+   
+• Queda de uso como variação percentual e queda de recorrência no período.
+• Atrito como volume de tickets, recorrência e reabertura quando disponível.
+• Profundidade de adoção como módulos usados e consistência de uso ao longo do mês.
+
+2. Eu classifico os clientes em risco em três perfis operacionais para acionar estratégias diferentes
+   
+• Baixa adoção: Baixo volume de uso, baixa profundidade de módulos e pouca recorrência.
+• Queda recente: Redução relevante de uso versus histórico do cliente, com risco de churn crescente.
+• Atrito: Queda de uso combinada com tickets altos, solicitações repetidas ou problemas recorrentes.
+
+3. Eu crio listas dinâmicas no CRM atualizadas semanalmente com regras estáveis e rastreáveis
+   
+• Lista Crítico: Score crítico ou atenção + queda de uso relevante + atrito alto.
+• Lista Atenção: Queda de uso moderada ou tendência negativa por duas janelas consecutivas.
+• Lista Baixa adoção: Baixa recorrência e baixa profundidade de módulos independentemente de churn formal.
+
+Eu registro data de entrada e saída de cada lista para medir tempo de recuperação.
+
+4. Eu aplico as ações certas em pacotes padronizados, não em abordagens manuais caso a caso
+   
+• Pacote A ativação rápida: foco em elevar recorrência e ações chave em 7 dias.
+• Pacote B redução de atrito: foco em diminuir tickets repetidos e corrigir causas raiz.
+• Pacote C reativação de rotina: foco em retomar uso consistente após queda dastrica.
+
+Cada pacote tem checklist, material padrão, SLA e critérios claros de sucesso.
+
+5. Eu automatizo a abertura de tarefas e alertas com base em regras do score e do perfil
+   
+• Crítico: Recebe tarefa com SLA curto e prioridade alta.
+• Atenção: Entra em cadência automatizada e só escala para humano se não reagir em 14 dias.
+• Baixa: Adoção entra em cadência de ativação e segue até atingir metas mínimas de uso.
+
+6. Eu valido o impacto com um experimento simples para evitar achismo
+   
+• Coortes tratadas versus controle por segmento e score semelhante.
+• Janelas de acompanhamento em 14, 30 e 60 dias.
+• Métricas primárias: aumento de usuários ativos, aumento de ações chave, churn em 60 dias.
+• Métricas secundárias: tickets por cliente, reaberturas, tempo de resolução e estabilidade do uso.
 
 Métricas de sucesso
-• aumento de logins e ações em 14 dias.  
-• redução de tickets por cliente em 30 dias. 
-• queda de churn em 60 dias no grupo tratado vs grupo controle.  
+
+• Aumento de recorrência de uso em 14 dias e manutenção em 30 dias
+• Redução de tickets repetidos e fricção em 30 dias
+• Queda de churn em 60 dias no grupo tratado versus grupo controle
+• Tempo médio para sair do segmento crítico reduzido
 
 ### Para clientes com potencial de expansão
 
-Ação proposta: playbook de expansão por maturidade, usando gatilhos de saturação e adoção.
+Ação proposta: Identificação de expansão por maturidade de adoção, saturação e criação automática de oportunidades
 
-Objetivo: aumentar receita via upgrade de plano e expansão de licenças e módulos.
+Objetivo: Aumentar receita via expansão saudável, transformando sinais de uso em pipeline previsível, com controle de qualidade pós upsell.
 
 Como executar
-1. Eu crio um gatilho de expansão quando usuários ativos ficam acima de 80 por cento do contratado por 2 meses ou quando módulos usados ficam acima de 75 por cento do contratado  
-2. Eu preparo um pacote de proposta com dois caminhos, upgrade de plano e aumento de licenças, com benefício claro e ROI simples  
-3. Eu faço abordagem com base em dados, mostrando o nível atual de uso e o que o cliente destrava com a expansão  
+
+1. Eu defino gatilhos de expansão combinando saturação e maturidade, para reduzir falso positivo
+
+• Saturação de usuários: usuários ativos acima de 80% do contratado por dois meses.
+• Saturação de módulos: módulos usados acima de 75% do contratado por dois meses.
+• Maturidade: uso recorrente em múltiplos módulos e crescimento consistente de atividade por 6 a 8 semanas.
+
+2. Criar um gatilho no CRM que abre automaticamente uma oportunidade de expansão quando as condições são atendidas
+
+• Cria negócio em pipeline de expansão com estágio inicial padronizado.
+• Registra motivo do gatilho e os dados que justificam a expansão.
+• Evita duplicidade com uma regra de janela, por exemplo não criar nova oportunidade para o mesmo cliente em 60 dias.
+
+3. Eu padronizo pacotes de expansão por perfil para dar previsibilidade e reduzir atrito
+
+• Expansão por licenças: quando há saturação de usuários e dependência operacional do produto.
+• Expansão por módulos: quando há profundidade em um módulo e espaço claro para ativar outro módulo com ganho direto.
+• Upgrade de plano: quando o cliente atinge limites e precisa de estrutura maior para continuar escalando.
+
+4. Eu preparo um pacote de proposta orientado a dados para facilitar execução e aumentar conversão
+
+• Resumo do uso atual e da tendência.
+• O que está saturado e qual o risco de continuar sem expandir.
+• O que o cliente destrava com a expansão em linguagem simples e ROI direto.
+• Dois caminhos possíveis, upgrade de plano ou aumento de licenças e módulos, com recomendação clara.
+
+5. Eu fecho o ciclo com medição de adoção pós expansão, garantindo qualidade da receita
+
+• Check de adoção do item expandido em 30 dias.
+• Alerta se expansão ocorreu e o uso não acompanhou, para evitar churn pós upsell.
+• Retenção em 90 dias pós atualização como métrica de expansão saudável.
 
 Métricas de sucesso
-• taxa de conversão de propostas  
-• receita expandida em MRR  
-• retenção de 90 dias pós upgrade  
+
+• Taxa de conversão das oportunidades geradas automaticamente.
+• MRR expandido e receita incremental por coorte.
+• Adoção do que foi expandido em 30 dias e manutenção em 60 dias.
+• Retenção em 90 dias pós expansão.
+• Taxa de reversão, downgrade ou churn pós upsell reduzida.

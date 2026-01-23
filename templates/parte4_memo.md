@@ -1,7 +1,7 @@
 # Parte 4: Memo Executivo
 
 **Para:** Liderança de Customer Success  
-**De:** Heverton Vilas Boas Tavares  
+**De:** Heverton Vilas Boas Matiello  
 **Data:** 22 de janeiro de 2026  
 **Assunto:** Situação da base de clientes  janeiro de 2025
 

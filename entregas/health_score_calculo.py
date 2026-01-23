@@ -6,6 +6,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 OUT_DIR = BASE_DIR / "entregas"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 clientes = pd.read_csv(DATA_DIR / "clientes.csv")
 uso = pd.read_csv(DATA_DIR / "uso_mensal.csv")
@@ -85,3 +86,4 @@ out_cols = [
 df_active[out_cols].to_csv(OUT_DIR / "health_scores.csv", index=False)
 
 print("Arquivo gerado em entregas/health_scores.csv")
+print("Meses usados:", meses_janela)

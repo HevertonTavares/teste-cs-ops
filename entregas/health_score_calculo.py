@@ -1,18 +1,22 @@
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
-# Este script calcula Health Score em escala 0 a 100 usando os dados do teste técnico
-# Ele usa uma janela de 3 meses mais recentes do dataset, aqui outubro, novembro e dezembro de 2024
+# Health Score 0 a 100 usando janela de 3 meses mais recentes do dataset outubro, novembro e dezembro de 2024
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data"
+OUT_DIR = BASE_DIR / "entregas"
 
-clientes = pd.read_csv("../data/clientes.csv")
-uso = pd.read_csv("../data/uso_mensal.csv")
-eventos = pd.read_csv("../data/eventos.csv")
+clientes = pd.read_csv(DATA_DIR / "clientes.csv")
+uso = pd.read_csv(DATA_DIR / "uso_mensal.csv")
+eventos = pd.read_csv(DATA_DIR / "eventos.csv")
 
 meses_janela = ["2024-10", "2024-11", "2024-12"]
 
 # Identificar churn
 churned = set(eventos.loc[eventos["tipo"] == "churn", "cliente_id"].unique())
 
+# Contagem de módulos contratados
 clientes["modulos_contratados_n"] = clientes["modulos_contratados"].fillna("").apply(
     lambda s: len([x for x in str(s).split(",") if x.strip()])
 )
@@ -38,14 +42,23 @@ def pct_rank(s):
 df["freq_score"] = pct_rank(df["avg_logins"])
 df["engagement_score"] = pct_rank(df["avg_actions"])
 
-df["depth_ratio"] = (df["avg_users_active"] / df["usuarios_contratados"].replace(0, np.nan)).fillna(0).clip(0, 1)
+# Opcional, garante 0 quando não existe uso
+df.loc[df["avg_logins"] == 0, "freq_score"] = 0
+df.loc[df["avg_actions"] == 0, "engagement_score"] = 0
+
+df["depth_ratio"] = (
+    df["avg_users_active"] / df["usuarios_contratados"].replace(0, np.nan)
+).fillna(0).clip(0, 1)
 df["depth_score"] = df["depth_ratio"] * 100
 
-df["breadth_ratio"] = (df["avg_modules_used"] / df["modulos_contratados_n"].replace(0, np.nan)).fillna(0).clip(0, 1)
+df["breadth_ratio"] = (
+    df["avg_modules_used"] / df["modulos_contratados_n"].replace(0, np.nan)
+).fillna(0).clip(0, 1)
 df["breadth_score"] = df["breadth_ratio"] * 100
 
 p90 = df["avg_tickets"].quantile(0.9)
-p90 = float(p90) if p90 and p90 > 0 else 1.0
+if not np.isfinite(p90) or p90 <= 0:
+    p90 = 1.0
 df["support_score"] = (100 - (df["avg_tickets"] / p90 * 100)).clip(0, 100)
 
 weights = dict(
@@ -62,13 +75,13 @@ for k, w in weights.items():
 
 df["health_score"] = df["health_score"].clip(0, 100).round(2)
 
-# Filtrar somente clientes ativos
+# Somente clientes ativos
 df_active = df[~df["id"].isin(churned)].copy()
 
 out_cols = [
     "id", "nome", "segmento", "plano", "mrr", "csm_responsavel", "estado",
     "health_score", "freq_score", "breadth_score", "depth_score", "engagement_score", "support_score",
 ]
-df_active[out_cols].to_csv("../entregas/health_scores.csv", index=False)
+df_active[out_cols].to_csv(OUT_DIR / "health_scores.csv", index=False)
 
 print("Arquivo gerado em entregas/health_scores.csv")

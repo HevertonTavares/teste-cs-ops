@@ -15,12 +15,13 @@ Eu construí um Health Score em escala de 0 a 100 usando uma visão dos últimos
 <tr><th>Componente</th><th>Métrica base</th><th>Peso</th><th>Justificativa</th></tr>
 </thead>
 <tbody>
-<tr><td>Frequência de uso</td><td>Média de logins nos últimos 3 meses, normalizada por percentil na base</td><td>25 por cento</td><td>Uso recorrente é o melhor proxy inicial de valor percebido</td></tr>
-<tr><td>Amplitude de uso</td><td>Média de módulos usados dividido por módulos contratados</td><td>20 por cento</td><td>Quando o cliente usa mais módulos, a solução vira parte do processo dele e reduz risco</td></tr>
-<tr><td>Profundidade de uso</td><td>Média de usuários ativos dividido por usuários contratados</td><td>20 por cento</td><td>Adoção do time do cliente aumenta stickiness e facilita expansão</td></tr>
-<tr><td>Engajamento</td><td>Média de ações realizadas, normalizada por percentil na base</td><td>20 por cento</td><td>Ações são sinal de valor prático, não só login</td></tr>
-<tr><td>Suporte</td><td>Média de tickets, invertida e normalizada</td><td>15 por cento</td><td>Tickets em excesso tendem a indicar fricção, mas não devem dominar o score</td></tr>
+<tr><td>Frequência de uso</td><td>Média de logins nos últimos 3 meses, normalizada por percentil na base</td><td>25%</td><td>Uso recorrente é o melhor proxy inicial de valor percebido</td></tr>
+<tr><td>Amplitude de uso</td><td>Média de módulos usados dividido por módulos contratados</td><td>20%</td><td>Quando o cliente usa mais módulos, a solução vira parte do processo dele e reduz risco</td></tr>
+<tr><td>Profundidade de uso</td><td>Média de usuários ativos dividido por usuários contratados</td><td>20%</td><td>Adoção do time do cliente aumenta stickiness e facilita expansão</td></tr>
+<tr><td>Engajamento</td><td>Média de ações realizadas, normalizada por percentil na base</td><td>20%</td><td>Ações são sinal de valor prático, não só login</td></tr>
+<tr><td>Suporte</td><td>Média de tickets, invertida e normalizada</td><td>15%</td><td>Tickets em excesso tendem a indicar fricção, mas não devem dominar o score</td></tr>
 </tbody>
+
 </table>
 
 ### Fórmula final
@@ -64,8 +65,7 @@ Arquivo anexo: entregas health_score_calculo.py e entregas health_scores.csv
 ### Distribuição por faixa
 
 <table>
-<thead><tr><th>Faixa</th><th>Quantidade</th><th>Percentual</th></tr></thead>
-<tbody><tr><td>Crítico (0-30)</td><td>11</td><td>2.5</td></tr><tr><td>Atenção (31-60)</td><td>271</td><td>62.7</td></tr><tr><td>Saudável (61-100)</td><td>150</td><td>34.7</td></tr></tbody>
+<thead><tr><th>Faixa</th><th>Quantidade</th><th>Percentual</th></tr></thead> <tbody><tr><td>Crítico (0-30)</td><td>11</td><td>2.5%</td></tr><tr><td>Atenção (31-60)</td><td>271</td><td>62.7%</td></tr><tr><td>Saudável (61-100)</td><td>150</td><td>34.7%</td></tr></tbody>
 </table>
 
 ## 5. Limitações e melhorias

@@ -23,8 +23,7 @@ LIMIT 10;
 ### Resultado
 
 <table>
-<thead><tr><th>id</th><th>nome</th><th>mrr</th><th>logins_dez</th></tr></thead>
-<tbody><tr><td>460</td><td>Rancho Nova Era</td><td>787.65</td><td>0</td></tr><tr><td>254</td><td>Estância Progresso</td><td>707.46</td><td>0</td></tr><tr><td>24</td><td>Fazenda União dos Santos</td><td>525.93</td><td>0</td></tr><tr><td>189</td><td>Fazenda Bela Vista</td><td>412.35</td><td>0</td></tr></tbody>
+<thead><tr><th>id</th><th>nome</th><th>mrr</th><th>logins_dez</th></tr></thead> <tbody><tr><td>460</td><td>Rancho Nova Era</td><td>787.65</td><td>0</td></tr><tr><td>254</td><td>Estância Progresso</td><td>707.46</td><td>0</td></tr><tr><td>24</td><td>Fazenda União dos Santos</td><td>525.93</td><td>0</td></tr><tr><td>189</td><td>Fazenda Bela Vista</td><td>412.35</td><td>0</td></tr></tbody>
 </table>
 
 Observação: no dataset existem apenas 4 clientes com zero logins em 2024 12.
@@ -55,17 +54,16 @@ churn_por_segmento AS (
 SELECT b.segmento,
        b.total_clientes,
        COALESCE(cs.churns,0) AS churns,
-       ROUND(1.0*COALESCE(cs.churns,0)/b.total_clientes, 4) AS taxa_churn
+       ROUND(100.0*COALESCE(cs.churns,0)/b.total_clientes, 2) AS taxa_churn_pct
 FROM base b
 LEFT JOIN churn_por_segmento cs ON cs.segmento = b.segmento
-ORDER BY taxa_churn DESC, churns DESC;
+ORDER BY taxa_churn_pct DESC, churns DESC;
 ```
 
 ### Resultado
 
 <table>
-<thead><tr><th>segmento</th><th>total_clientes</th><th>churns</th><th>taxa_churn</th></tr></thead>
-<tbody><tr><td>Grande Produtor</td><td>63</td><td>8</td><td>0.127</td></tr><tr><td>Pequeno Produtor</td><td>229</td><td>28</td><td>0.1223</td></tr><tr><td>Médio Produtor</td><td>171</td><td>17</td><td>0.0994</td></tr><tr><td>Cooperativa</td><td>24</td><td>2</td><td>0.0833</td></tr></tbody>
+<thead><tr><th>segmento</th><th>total_clientes</th><th>churns</th><th>taxa_churn_pct</th></tr></thead> <tbody><tr><td>Grande Produtor</td><td>63</td><td>8</td><td>12.70%</td></tr><tr><td>Pequeno Produtor</td><td>229</td><td>28</td><td>12.23%</td></tr><tr><td>Médio Produtor</td><td>171</td><td>17</td><td>9.94%</td></tr><tr><td>Cooperativa</td><td>24</td><td>2</td><td>8.33%</td></tr></tbody>
 </table>
 
 ## Pergunta 3
@@ -94,22 +92,21 @@ churn_por_csm AS (
 SELECT b.csm_responsavel,
        b.total_clientes,
        COALESCE(cc.churns,0) AS churns,
-       ROUND(1.0*(b.total_clientes-COALESCE(cc.churns,0))/b.total_clientes, 4) AS taxa_retencao
+       ROUND(100.0*(b.total_clientes-COALESCE(cc.churns,0))/b.total_clientes, 2) AS taxa_retencao_pct
 FROM base b
 LEFT JOIN churn_por_csm cc ON cc.csm_responsavel = b.csm_responsavel
-ORDER BY taxa_retencao DESC, total_clientes DESC;
+ORDER BY taxa_retencao_pct DESC, total_clientes DESC;
 ```
 
 ### Resultado
 
 <table>
-<thead><tr><th>csm_responsavel</th><th>total_clientes</th><th>churns</th><th>taxa_retencao</th></tr></thead>
-<tbody><tr><td>Carla Mendes</td><td>102</td><td>9</td><td>0.9118</td></tr><tr><td>Diego Oliveira</td><td>80</td><td>8</td><td>0.9</td></tr><tr><td>Bruno Costa</td><td>123</td><td>14</td><td>0.8862</td></tr><tr><td>Elena Santos</td><td>59</td><td>7</td><td>0.8814</td></tr><tr><td>Ana Silva</td><td>123</td><td>17</td><td>0.8618</td></tr></tbody>
+<thead><tr><th>csm_responsavel</th><th>total_clientes</th><th>churns</th><th>taxa_retencao_pct</th></tr></thead> <tbody><tr><td>Carla Mendes</td><td>102</td><td>9</td><td>91.18%</td></tr><tr><td>Diego Oliveira</td><td>80</td><td>8</td><td>90.00%</td></tr><tr><td>Bruno Costa</td><td>123</td><td>14</td><td>88.62%</td></tr><tr><td>Elena Santos</td><td>59</td><td>7</td><td>88.14%</td></tr><tr><td>Ana Silva</td><td>123</td><td>17</td><td>86.18%</td></tr></tbody>
 </table>
 
 ### Interpretação
 
-Pelo critério de maior taxa de retenção, eu encontro Carla Mendes como melhor resultado, com 0,9118 de retenção no período observado. Eu usaria esse dado como ponto de partida e validaria se há viés de carteira, por exemplo distribuição de segmentos e planos por CSM.
+Pelo critério de maior taxa de retenção, eu encontro Carla Mendes como melhor resultado, com 91.18% de retenção no período observado. Eu uso esse dado como ponto de partida e valido se existe viés de carteira, por exemplo distribuição de segmentos e planos por CSM.
 
 ## Pergunta 4 Bônus
 
@@ -129,7 +126,7 @@ SELECT c.id AS cliente_id,
        c.nome,
        s.logins_recentes,
        s.logins_anteriores,
-       ROUND( (1.0*s.logins_recentes - s.logins_anteriores) / NULLIF(s.logins_anteriores,0), 4) AS variacao_pct
+       ROUND(100.0*(1.0*s.logins_recentes - s.logins_anteriores) / NULLIF(s.logins_anteriores,0), 2) AS variacao_pct
 FROM sums s
 JOIN clientes c ON c.id = s.cliente_id
 WHERE s.logins_anteriores > 0
@@ -141,8 +138,7 @@ LIMIT 10;
 ### Resultado
 
 <table>
-<thead><tr><th>cliente_id</th><th>nome</th><th>logins_recentes</th><th>logins_anteriores</th><th>variacao_pct</th></tr></thead>
-<tbody><tr><td>153</td><td>Rancho Horizonte</td><td>3</td><td>24</td><td>-0.875</td></tr><tr><td>189</td><td>Fazenda Bela Vista</td><td>1</td><td>8</td><td>-0.875</td></tr><tr><td>29</td><td>Haras Esperança</td><td>45</td><td>305</td><td>-0.8525</td></tr><tr><td>254</td><td>Estância Progresso</td><td>1</td><td>6</td><td>-0.8333</td></tr><tr><td>356</td><td>Sítio Horizonte</td><td>4</td><td>23</td><td>-0.8261</td></tr><tr><td>130</td><td>Rancho Nova Era dos Santos</td><td>82</td><td>450</td><td>-0.8178</td></tr><tr><td>1</td><td>Granja Boa Vista</td><td>11</td><td>58</td><td>-0.8103</td></tr><tr><td>24</td><td>Fazenda União dos Santos</td><td>1</td><td>5</td><td>-0.8</td></tr><tr><td>392</td><td>Sítio União</td><td>7</td><td>34</td><td>-0.7941</td></tr><tr><td>293</td><td>Granja Recanto Oliveira</td><td>37</td><td>168</td><td>-0.7798</td></tr></tbody>
+<thead><tr><th>cliente_id</th><th>nome</th><th>logins_recentes</th><th>logins_anteriores</th><th>variacao_pct</th></tr></thead> <tbody><tr><td>153</td><td>Rancho Horizonte</td><td>3</td><td>24</td><td>-87.50%</td></tr><tr><td>189</td><td>Fazenda Bela Vista</td><td>1</td><td>8</td><td>-87.50%</td></tr><tr><td>29</td><td>Haras Esperança</td><td>45</td><td>305</td><td>-85.25%</td></tr><tr><td>254</td><td>Estância Progresso</td><td>1</td><td>6</td><td>-83.33%</td></tr><tr><td>356</td><td>Sítio Horizonte</td><td>4</td><td>23</td><td>-82.61%</td></tr><tr><td>130</td><td>Rancho Nova Era dos Santos</td><td>82</td><td>450</td><td>-81.78%</td></tr><tr><td>1</td><td>Granja Boa Vista</td><td>11</td><td>58</td><td>-81.03%</td></tr><tr><td>24</td><td>Fazenda União dos Santos</td><td>1</td><td>5</td><td>-80.00%</td></tr><tr><td>392</td><td>Sítio União</td><td>7</td><td>34</td><td>-79.41%</td></tr><tr><td>293</td><td>Granja Recanto Oliveira</td><td>37</td><td>168</td><td>-77.98%</td></tr></tbody>
 </table>
 
 Observação: neste conjunto de dados, todos os clientes que apresentaram queda superior a 50% acabaram entrando em churn.

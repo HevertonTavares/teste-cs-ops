@@ -4,7 +4,7 @@
 
 **Data:** 22/01/2026
 
-# Parte 4: Memo Executivo
+# Memo: Situação da Base de Clientes
 
 **Para:** Liderança de Customer Success  
 **De:** Heverton Vilas Boas Matiello  

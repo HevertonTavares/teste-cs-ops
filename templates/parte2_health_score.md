@@ -1,5 +1,9 @@
 # Parte 2: Health Score
 
+**Candidato(a):** Heverton Vilas Boas Matiello
+
+**Data:** 22/01/2025
+
 ## 1. Fórmula proposta
 
 Eu construí um Health Score em escala de 0 a 100 usando uma visão dos últimos 3 meses (outubro, novembro e dezembro de 2024) para reduzir efeito de sazonalidade.

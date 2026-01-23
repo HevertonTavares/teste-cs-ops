@@ -1,5 +1,9 @@
 # Parte 3: Análise de Risco e Expansão
 
+**Candidato(a):** Heverton Vilas Boas Matiello
+
+**Data:** 22/01/2025
+
 ## 1. Clientes em risco de churn  Top 10
 
 Eu estimei risco combinando três sinais:

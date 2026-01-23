@@ -1,5 +1,9 @@
 # Parte 1: SQL
 
+**Candidato(a):** Heverton Vilas Boas Matiello
+
+**Data:** 22/01/2025
+
 ## Pergunta 1
 
 Liste os 10 clientes com maior MRR que tiveram zero logins no último mês (2024-12).
